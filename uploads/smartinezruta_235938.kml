@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.0'>
+<Document>
+<Style id='apagado'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id='encendido'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id='puntoNoObtenido'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="LineaPuntoNoObtenido">
+<LineStyle>
+<color>cc1447ff</color>
+</LineStyle>
+</Style>
+<Style id="lineaapagado">
+<LineStyle>
+<color>ff0000ff</color>
+</LineStyle>
+</Style>
+<name> Recorrido de Gerardo</name>
+<description>Recorrido</description>
+<Placemark id="track">
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.397,25.7792,0  -100.4,25.7777,0  -100.4,25.7733,0  -100.4,25.7756,0  -100.402,25.7575,0  -100.39,25.7488,0  -100.366,25.7202,0  -100.352,25.6961,0  -100.341,25.6961,0  -100.343,25.6946,0  -100.341,25.6964,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:18/04/2015 06:37:36 a.m.</description>
+<Point>
+<coordinates>-100.397,25.7792,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:18/04/2015 06:47:58 a.m.</description>
+<Point>
+<coordinates>-100.4,25.7777,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:18/04/2015 07:08:02 a.m.</description>
+<Point>
+<coordinates>-100.4,25.7733,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:18/04/2015 07:08:23 a.m.</description>
+<Point>
+<coordinates>-100.4,25.7756,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:18/04/2015 07:18:02 a.m.</description>
+<Point>
+<coordinates>-100.402,25.7575,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:18/04/2015 07:22:26 a.m.</description>
+<Point>
+<coordinates>-100.39,25.7488,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:18/04/2015 07:28:02 a.m.</description>
+<Point>
+<coordinates>-100.366,25.7202,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:18/04/2015 07:33:02 a.m.</description>
+<Point>
+<coordinates>-100.352,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:18/04/2015 07:39:48 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:18/04/2015 07:43:02 a.m.</description>
+<Point>
+<coordinates>-100.343,25.6946,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:18/04/2015 07:45:17 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6964,0</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,3438 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.0'>
+<Document>
+<Style id='apagado'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id='encendido'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id='puntoNoObtenido'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="LineaPuntoNoObtenido">
+<LineStyle>
+<color>cc1447ff</color>
+</LineStyle>
+</Style>
+<Style id="lineaapagado">
+<LineStyle>
+<color>ff0000ff</color>
+</LineStyle>
+</Style>
+<name> Recorrido de Todos los tecnicos</name>
+<description>Recorrido</description>
+<Placemark id="track">
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.341,25.6963,0  -100.341,25.6963,0  -100.341,25.6963,0  -100.341,25.6963,0  -100.341,25.6962,0  -100.341,25.6962,0  -100.341,25.6962,0  -100.341,25.6962,0  -100.351,25.6975,0  -100.351,25.6975,0  -100.351,25.6975,0  -100.351,25.6975,0  -100.345,25.6957,0  -100.345,25.6957,0  -100.345,25.6957,0  -100.345,25.6957,0  -100.351,25.6977,0  -100.351,25.6977,0  -100.351,25.6977,0  -100.351,25.6977,0  -100.321,25.7284,0  -100.321,25.7284,0  -100.321,25.7284,0  -100.321,25.7284,0  -100.312,25.76,0  -100.312,25.76,0  -100.312,25.76,0  -100.305,25.764,0  -100.305,25.764,0  -100.305,25.764,0  -100.283,25.7876,0  -100.283,25.7876,0  -100.312,25.76,0  -100.281,25.7921,0  -100.281,25.7921,0  -100.305,25.764,0  -100.279,25.7963,0  -100.279,25.7963,0  -100.283,25.7876,0  -100.283,25.7876,0  -100.265,25.8202,0  -100.265,25.8202,0  -100.281,25.7921,0  -100.281,25.7921,0  -100.226,25.8758,0  -100.226,25.8758,0  -100.279,25.7963,0  -100.279,25.7963,0  -100.184,25.913,0  -100.184,25.913,0  -100.265,25.8202,0  -100.265,25.8202,0  -100.165,25.9029,0  -100.165,25.9029,0  -100.226,25.8758,0  -100.226,25.8758,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.184,25.913,0  -100.184,25.913,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9029,0  -100.165,25.9029,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.165,25.9027,0  -100.165,25.9028,0  -100.165,25.9028,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.164,25.9023,0  -100.164,25.9023,0  -100.164,25.9023,0  -100.164,25.9023,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.164,25.9024,0  -100.164,25.9024,0  -100.164,25.9024,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.164,25.9024,0  -100.164,25.9024,0  -100.164,25.9024,0  -100.164,25.9024,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.164,25.9017,0  -100.164,25.9017,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.165,25.9022,0  -100.165,25.9022,0  -100.165,25.9022,0  -100.165,25.9022,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.165,25.9023,0  -100.163,25.9037,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.165,25.9026,0  -100.165,25.9026,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.165,25.9026,0  -100.165,25.9026,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9024,0  -100.165,25.9024,0  -100.165,25.9024,0  -100.165,25.9023,0  -100.165,25.9024,0  -100.165,25.9024,0  -100.165,25.9024,0  -100.165,25.9024,0  -100.165,25.9024,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.165,25.9024,0  -100.165,25.9024,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.163,25.9037,0  -100.165,25.9023,0  -100.165,25.9023,0  -100.163,25.9037,0  -100.165,25.9006,0  -100.166,25.8998,0  -100.166,25.8998,0  -100.166,25.8998,0  -100.166,25.8998,0  -100.166,25.8998,0  -100.168,25.8991,0  -100.168,25.8993,0  -100.168,25.8996,0  -100.168,25.8996,0  -100.168,25.8995,0  -100.168,25.8995,0  -100.168,25.8997,0  -100.168,25.8997,0  -100.168,25.8997,0  -100.168,25.8997,0  -100.168,25.8999,0  -100.163,25.9037,0  -100.167,25.8995,0  -100.167,25.8994,0  -100.167,25.8996,0  -100.163,25.9037,0  -100.167,25.8999,0  -100.167,25.8999,0  -100.167,25.9,0  -100.163,25.9037,0  -100.167,25.9,0  -100.167,25.8998,0  -100.167,25.9,0  -100.167,25.9,0  -100.167,25.8999,0  -100.167,25.9,0  -100.167,25.9,0  -100.167,25.8999,0  -100.167,25.9,0  -100.167,25.9,0  -100.167,25.9,0  -100.167,25.9001,0  -100.167,25.9001,0  -100.167,25.9004,0  -100.167,25.9007,0  -100.167,25.9008,0  -100.167,25.9008,0  -100.167,25.9008,0  -100.167,25.9001,0  -100.167,25.9008,0  -100.167,25.9008,0  -100.167,25.9008,0  -100.163,25.9037,0  -100.167,25.9002,0  -100.167,25.9002,0  -100.167,25.9002,0  -100.163,25.9037,0  -100.166,25.9007,0  -100.166,25.9008,0  -100.166,25.9009,0  -100.166,25.9009,0  -100.166,25.9009,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.163,25.9037,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.166,25.901,0  -100.167,25.9009,0  -100.163,25.9037,0  -100.166,25.9015,0  -100.167,25.9001,0  -100.163,25.9037,0  -100.169,25.8967,0  -100.17,25.8957,0  -100.171,25.8953,0  -100.166,25.8904,0  -100.166,25.8904,0  -100.169,25.8979,0  -100.169,25.8979,0  -100.169,25.8977,0  -100.169,25.8977,0  -100.169,25.8977,0  -100.169,25.8977,0  -100.169,25.8975,0  -100.169,25.8975,0  -100.166,25.8904,0  -100.166,25.8904,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8978,0  -100.17,25.8978,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.8981,0  -100.17,25.8981,0  -100.17,25.8981,0  -100.17,25.8981,0  -100.17,25.8981,0  -100.17,25.8981,0  -100.17,25.8982,0  -100.17,25.8982,0  -100.17,25.8981,0  -100.17,25.8981,0  -100.17,25.8981,0  -100.17,25.8981,0  -100.17,25.8981,0  -100.17,25.8981,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.898,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8979,0  -100.17,25.8978,0  -100.17,25.8978,0  -100.17,25.8978,0  -100.17,25.8978,0  -100.17,25.8977,0  -100.17,25.8977,0  -100.17,25.8976,0  -100.17,25.8976,0  -100.17,25.8976,0  -100.17,25.8976,0  -100.17,25.8975,0  -100.17,25.8975,0  -100.17,25.8974,0  -100.17,25.8974,0  -100.17,25.8974,0  -100.17,25.8974,0  -100.17,25.8973,0  -100.17,25.8973,0  -100.17,25.8972,0  -100.17,25.8972,0  -100.17,25.8972,0  -100.17,25.8972,0  -100.17,25.8972,0  -100.17,25.8972,0  -100.17,25.8971,0  -100.17,25.8971,0  -100.17,25.8971,0  -100.17,25.8971,0  -100.17,25.8971,0  -100.17,25.8971,0  -100.17,25.8971,0  -100.17,25.8971,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.8969,0  -100.17,25.8969,0  -100.17,25.8969,0  -100.17,25.8969,0  -100.17,25.8969,0  -100.17,25.897,0  -100.17,25.8969,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.897,0  -100.17,25.897,0  -100.171,25.8966,0  -100.17,25.897,0  -100.171,25.8968,0  -100.171,25.8966,0  -100.171,25.8973,0  -100.171,25.8968,0  -100.171,25.8971,0  -100.171,25.8973,0  -100.171,25.8968,0  -100.171,25.8966,0  -100.171,25.8971,0  -100.171,25.8965,0  -100.171,25.8968,0  -100.171,25.8965,0  -100.171,25.8966,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8964,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8964,0  -100.171,25.8965,0  -100.171,25.8964,0  -100.171,25.8964,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8964,0  -100.171,25.8964,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8964,0  -100.171,25.8964,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8965,0  -100.171,25.8963,0  -100.171,25.8963,0  -100.171,25.8958,0  -100.171,25.8958,0  -100.171,25.8954,0  -100.171,25.8954,0  -100.171,25.8952,0  -100.171,25.8952,0  -100.171,25.8952,0  -100.171,25.8952,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8961,0  -100.172,25.8961,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8959,0  -100.172,25.8962,0  -100.172,25.8962,0  -100.172,25.8957,0  -100.172,25.8957,0  -100.166,25.9048,0  -100.166,25.8904,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track1">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.168,25.8995,0  -100.168,25.8997,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track2">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.168,25.8997,0  -100.168,25.8999,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track3">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.163,25.9037,0  -100.167,25.8999,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track4">
+<styleUrl>#lineaapagado</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.163,25.9037,0  -100.167,25.9,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track5">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.167,25.9001,0  -100.167,25.9008,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track6">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.163,25.9037,0  -100.166,25.9007,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track7">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.163,25.9037,0  -100.166,25.901,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track8">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.163,25.9037,0  -100.166,25.9015,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track9">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.166,25.8904,0  -100.166,25.8904,0  -100.17,25.8979,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track10">
+<styleUrl>#lineaapagado</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.166,25.8904,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:31/08/2015 07:17:11 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:31/08/2015 07:17:11 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:31/08/2015 07:17:11 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:31/08/2015 07:17:11 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:17:15 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6962,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:17:15 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6962,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:17:15 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6962,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:17:15 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6962,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:22:12 a.m.</description>
+<Point>
+<coordinates>-100.351,25.6975,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:22:12 a.m.</description>
+<Point>
+<coordinates>-100.351,25.6975,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:22:12 a.m.</description>
+<Point>
+<coordinates>-100.351,25.6975,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:22:12 a.m.</description>
+<Point>
+<coordinates>-100.351,25.6975,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:22:12 a.m.</description>
+<Point>
+<coordinates>-100.345,25.6957,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:22:12 a.m.</description>
+<Point>
+<coordinates>-100.345,25.6957,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:22:12 a.m.</description>
+<Point>
+<coordinates>-100.345,25.6957,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:22:12 a.m.</description>
+<Point>
+<coordinates>-100.345,25.6957,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:27:14 a.m.</description>
+<Point>
+<coordinates>-100.351,25.6977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:27:14 a.m.</description>
+<Point>
+<coordinates>-100.351,25.6977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:27:14 a.m.</description>
+<Point>
+<coordinates>-100.351,25.6977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:27:14 a.m.</description>
+<Point>
+<coordinates>-100.351,25.6977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:32:14 a.m.</description>
+<Point>
+<coordinates>-100.321,25.7284,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:32:14 a.m.</description>
+<Point>
+<coordinates>-100.321,25.7284,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:32:14 a.m.</description>
+<Point>
+<coordinates>-100.321,25.7284,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:32:14 a.m.</description>
+<Point>
+<coordinates>-100.321,25.7284,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:37:10 a.m.</description>
+<Point>
+<coordinates>-100.312,25.76,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:37:10 a.m.</description>
+<Point>
+<coordinates>-100.312,25.76,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:37:10 a.m.</description>
+<Point>
+<coordinates>-100.312,25.76,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:37:16 a.m.</description>
+<Point>
+<coordinates>-100.305,25.764,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:37:16 a.m.</description>
+<Point>
+<coordinates>-100.305,25.764,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:37:16 a.m.</description>
+<Point>
+<coordinates>-100.305,25.764,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:42:15 a.m.</description>
+<Point>
+<coordinates>-100.283,25.7876,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:42:15 a.m.</description>
+<Point>
+<coordinates>-100.283,25.7876,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:37:10 a.m.</description>
+<Point>
+<coordinates>-100.312,25.76,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:47:16 a.m.</description>
+<Point>
+<coordinates>-100.281,25.7921,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:47:16 a.m.</description>
+<Point>
+<coordinates>-100.281,25.7921,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:37:16 a.m.</description>
+<Point>
+<coordinates>-100.305,25.764,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:52:16 a.m.</description>
+<Point>
+<coordinates>-100.279,25.7963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:52:16 a.m.</description>
+<Point>
+<coordinates>-100.279,25.7963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:42:15 a.m.</description>
+<Point>
+<coordinates>-100.283,25.7876,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:42:15 a.m.</description>
+<Point>
+<coordinates>-100.283,25.7876,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:57:16 a.m.</description>
+<Point>
+<coordinates>-100.265,25.8202,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:57:16 a.m.</description>
+<Point>
+<coordinates>-100.265,25.8202,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:47:16 a.m.</description>
+<Point>
+<coordinates>-100.281,25.7921,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:47:16 a.m.</description>
+<Point>
+<coordinates>-100.281,25.7921,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:02:16 a.m.</description>
+<Point>
+<coordinates>-100.226,25.8758,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:02:16 a.m.</description>
+<Point>
+<coordinates>-100.226,25.8758,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:52:16 a.m.</description>
+<Point>
+<coordinates>-100.279,25.7963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:52:16 a.m.</description>
+<Point>
+<coordinates>-100.279,25.7963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:07:17 a.m.</description>
+<Point>
+<coordinates>-100.184,25.913,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:07:17 a.m.</description>
+<Point>
+<coordinates>-100.184,25.913,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:57:16 a.m.</description>
+<Point>
+<coordinates>-100.265,25.8202,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 07:57:16 a.m.</description>
+<Point>
+<coordinates>-100.265,25.8202,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:12:17 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9029,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:12:17 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9029,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:02:16 a.m.</description>
+<Point>
+<coordinates>-100.226,25.8758,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:02:16 a.m.</description>
+<Point>
+<coordinates>-100.226,25.8758,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:17:18 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:17:18 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:07:17 a.m.</description>
+<Point>
+<coordinates>-100.184,25.913,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:07:17 a.m.</description>
+<Point>
+<coordinates>-100.184,25.913,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:22:19 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:22:19 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:12:17 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9029,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:12:17 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9029,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:27:20 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:27:20 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:17:18 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:17:18 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:32:20 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:32:20 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:22:19 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:22:19 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:34:58 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:27:20 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:27:20 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:34:58 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:32:20 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:35:17 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:35:17 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:32:20 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:34:58 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:34:58 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:35:17 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:35:17 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:35:58 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:35:58 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:36:18 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:36:18 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:36:24 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:36:24 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:36:44 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:36:44 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:37:17 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:37:17 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:37:17 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:37:17 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:37:21 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:37:21 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:37:21 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:37:21 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9027,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:37:44 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:37:44 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:38:24 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:38:24 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:38:44 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:38:44 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:38:44 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:38:44 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:39:15 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:39:15 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:39:15 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:39:15 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:39:35 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:39:35 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:39:35 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:40:13 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:40:13 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:40:13 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:40:13 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:40:26 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:40:26 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:40:26 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:40:26 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:41:14 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:41:14 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:41:14 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:41:14 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:41:34 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9017,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:41:34 a.m.</description>
+<Point>
+<coordinates>-100.164,25.9017,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:12 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:12 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:22 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9022,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:22 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9022,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:22 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9022,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:22 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9022,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:32 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:32 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:32 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:32 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:32 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:40 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:40 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:40 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:32 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:43:11 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:43:11 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:43:11 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:42:40 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:43:11 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:43:31 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:43:31 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:43:31 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:44:11 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:44:11 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:44:11 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:44:11 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:46:42 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9026,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:46:42 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9026,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:47:22 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:47:22 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:47:22 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:47:22 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:47:27 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9026,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:47:27 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9026,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:13 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:13 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:13 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:15 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:15 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:15 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:13 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:16 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:16 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:16 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:15 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:16 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:33 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:33 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:48:33 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:49:23 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:49:23 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:49:23 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:49:23 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:49:43 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:49:43 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:50:23 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:50:23 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:50:23 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:50:23 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:50:44 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:51:31 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9023,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:52:14 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:53:17 a.m.</description>
+<Point>
+<coordinates>-100.165,25.9006,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:58:20 a.m.</description>
+<Point>
+<coordinates>-100.166,25.8998,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:58:27 a.m.</description>
+<Point>
+<coordinates>-100.166,25.8998,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:58:37 a.m.</description>
+<Point>
+<coordinates>-100.166,25.8998,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:58:47 a.m.</description>
+<Point>
+<coordinates>-100.166,25.8998,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 08:58:57 a.m.</description>
+<Point>
+<coordinates>-100.166,25.8998,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:04:01 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8991,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:09:00 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8993,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:14:01 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8996,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:31/08/2015 09:16:17 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8996,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:16:20 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8995,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:31/08/2015 09:21:20 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8995,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:21:25 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8997,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:21:33 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8997,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:22:02 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8997,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:31/08/2015 09:27:02 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8997,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:27:03 a.m.</description>
+<Point>
+<coordinates>-100.168,25.8999,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:27:07 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:27:12 a.m.</description>
+<Point>
+<coordinates>-100.167,25.8995,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:27:22 a.m.</description>
+<Point>
+<coordinates>-100.167,25.8994,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:27:31 a.m.</description>
+<Point>
+<coordinates>-100.167,25.8996,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:31/08/2015 09:32:31 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:32:33 a.m.</description>
+<Point>
+<coordinates>-100.167,25.8999,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:37:35 a.m.</description>
+<Point>
+<coordinates>-100.167,25.8999,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:42:35 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:31/08/2015 09:44:38 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:31/08/2015 09:44:49 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:44:49 a.m.</description>
+<Point>
+<coordinates>-100.167,25.8998,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:47:47 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:48:10 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:48:32 a.m.</description>
+<Point>
+<coordinates>-100.167,25.8999,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:48:48 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:49:08 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:49:28 a.m.</description>
+<Point>
+<coordinates>-100.167,25.8999,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:49:48 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:49:48 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:49:57 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:50:07 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9001,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:50:08 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9001,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:50:17 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9004,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:50:28 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9007,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:50:38 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9008,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:50:48 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9008,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:50:57 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9008,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:31/08/2015 09:55:57 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9001,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:56:10 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9008,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:56:18 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9008,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 09:56:28 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9008,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:00:25 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:01:41 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9002,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:01:48 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9002,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:01:58 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9002,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:31/08/2015 10:06:58 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:07:00 a.m.</description>
+<Point>
+<coordinates>-100.166,25.9007,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:07:08 a.m.</description>
+<Point>
+<coordinates>-100.166,25.9008,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:07:18 a.m.</description>
+<Point>
+<coordinates>-100.166,25.9009,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:07:28 a.m.</description>
+<Point>
+<coordinates>-100.166,25.9009,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:07:38 a.m.</description>
+<Point>
+<coordinates>-100.166,25.9009,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:07:48 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:07:58 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:08:28 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:31/08/2015 10:13:28 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:13:50 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:14:09 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:14:18 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:14:29 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:14:39 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:14:58 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:15:09 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:15:28 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:15:38 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:15:49 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:16:09 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:16:28 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:16:48 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:21:49 a.m.</description>
+<Point>
+<coordinates>-100.166,25.901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:21:58 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9009,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:31/08/2015 10:26:58 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:26:59 a.m.</description>
+<Point>
+<coordinates>-100.166,25.9015,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:29:13 a.m.</description>
+<Point>
+<coordinates>-100.167,25.9001,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:29:53 a.m.</description>
+<Point>
+<coordinates>-100.163,25.9037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:32:00 a.m.</description>
+<Point>
+<coordinates>-100.169,25.8967,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:36:36 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8957,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:37:00 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8953,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:39:24 a.m.</description>
+<Point>
+<coordinates>-100.166,25.8904,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:39:24 a.m.</description>
+<Point>
+<coordinates>-100.166,25.8904,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:42:00 a.m.</description>
+<Point>
+<coordinates>-100.169,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:42:00 a.m.</description>
+<Point>
+<coordinates>-100.169,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:42:10 a.m.</description>
+<Point>
+<coordinates>-100.169,25.8977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:42:10 a.m.</description>
+<Point>
+<coordinates>-100.169,25.8977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:42:19 a.m.</description>
+<Point>
+<coordinates>-100.169,25.8977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:42:19 a.m.</description>
+<Point>
+<coordinates>-100.169,25.8977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:43:21 a.m.</description>
+<Point>
+<coordinates>-100.169,25.8975,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:43:21 a.m.</description>
+<Point>
+<coordinates>-100.169,25.8975,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:31/08/2015 10:48:22 a.m.</description>
+<Point>
+<coordinates>-100.166,25.8904,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:31/08/2015 10:48:22 a.m.</description>
+<Point>
+<coordinates>-100.166,25.8904,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:25 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:25 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:36 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8978,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:36 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8978,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:40 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:40 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:41 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:41 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:42 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:42 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:44 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:44 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:45 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:48:45 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:49:21 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:49:21 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:49:22 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:49:22 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:49:23 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:49:23 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:49:26 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:49:26 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:49:56 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:49:56 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:50:00 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:50:00 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:50:03 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:50:03 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:50:58 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:50:58 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:50:59 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:50:59 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:00 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:00 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:01 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:01 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:02 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:02 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:03 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:03 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:04 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8982,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:04 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8982,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:05 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:05 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:06 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:06 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:07 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:07 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:08 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:08 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:09 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:09 a.m.</description>
+<Point>
+<coordinates>-100.17,25.898,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:10 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:10 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:11 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:11 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:12 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8978,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:12 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8978,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:13 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8978,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:13 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8978,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:14 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:14 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:15 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8976,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:15 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8976,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:16 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8976,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:16 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8976,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:17 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8975,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:17 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8975,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:18 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8974,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:18 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8974,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:19 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8974,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:19 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8974,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:20 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8973,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:20 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8973,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:21 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8972,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:21 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8972,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:22 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8972,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:22 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8972,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:23 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8972,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:23 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8972,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:24 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8971,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:24 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8971,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:25 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8971,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:25 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8971,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:26 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8971,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:26 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8971,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:27 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8971,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:27 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8971,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:28 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:28 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:29 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:29 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:30 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:30 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:31 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:31 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:32 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8969,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:32 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8969,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:33 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8969,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:33 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8969,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:37 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8969,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:40 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:37 a.m.</description>
+<Point>
+<coordinates>-100.17,25.8969,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:45 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:40 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:49 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:45 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:54 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:49 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:56:58 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8966,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:51:54 a.m.</description>
+<Point>
+<coordinates>-100.17,25.897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:07 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8968,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:56:58 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8966,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:17 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8973,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:07 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8968,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:27 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8971,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:17 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8973,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:38 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8968,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:47 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8966,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:27 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8971,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:57 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:38 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8968,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:58:07 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:47 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8966,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:58:27 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:57:57 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:03:30 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8964,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:58:07 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:03:39 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 10:58:27 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:03:30 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8964,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:03:39 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:03:49 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8964,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:03:49 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8964,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:03:59 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:03:59 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:08 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:08 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:18 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:18 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:28 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:28 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:38 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8964,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:38 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8964,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:48 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:48 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:58 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8964,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:04:58 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8964,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:08 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:08 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:19 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:19 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:28 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:28 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8963,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:38 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8958,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:38 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8958,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:48 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8954,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:48 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8954,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:58 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8952,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:05:58 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8952,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:06:08 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8952,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:06:08 a.m.</description>
+<Point>
+<coordinates>-100.171,25.8952,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:11:10 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:11:10 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:16:12 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:16:12 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:21:11 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:21:11 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:26:10 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:26:10 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:26:29 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:26:29 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:26:39 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:26:39 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:26:49 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:26:49 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:26:59 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:26:59 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8959,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:27:09 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8962,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:27:09 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8962,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:32:09 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8957,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:32:09 a.m.</description>
+<Point>
+<coordinates>-100.172,25.8957,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:31/08/2015 11:37:08 a.m.</description>
+<Point>
+<coordinates>-100.166,25.9048,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:31/08/2015 11:39:16 a.m.</description>
+<Point>
+<coordinates>-100.166,25.8904,0</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.0'>
+<Document>
+<Style id='apagado'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id='encendido'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id='puntoNoObtenido'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="LineaPuntoNoObtenido">
+<LineStyle>
+<color>cc1447ff</color>
+</LineStyle>
+</Style>
+<Style id="lineaapagado">
+<LineStyle>
+<color>ff0000ff</color>
+</LineStyle>
+</Style>
+<name> Recorrido de Juanito</name>
+<description>Recorrido</description>
+<Placemark id="track">
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.276,25.7884,0  -100.277,25.7881,0  -100.276,25.7884,0  -100.276,25.7884,0  -100.276,25.7883,0  -100.276,25.7883,0  -100.276,25.7886,0  -100.276,25.7884,0  -100.276,25.7883,0  -100.276,25.7884,0  -100.277,25.7884,0  -100.275,25.7883,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track1">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.276,25.7884,0  -100.276,25.7884,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:15/02/2017 07:49:40 p.m.</description>
+<Point>
+<coordinates>-100.276,25.7884,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/02/2017 07:49:41 p.m.</description>
+<Point>
+<coordinates>-100.277,25.7881,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/02/2017 07:54:41 p.m.</description>
+<Point>
+<coordinates>-100.276,25.7884,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/02/2017 07:56:31 p.m.</description>
+<Point>
+<coordinates>-100.276,25.7884,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/02/2017 07:59:24 p.m.</description>
+<Point>
+<coordinates>-100.276,25.7883,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/02/2017 08:02:33 p.m.</description>
+<Point>
+<coordinates>-100.276,25.7883,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/02/2017 08:06:06 p.m.</description>
+<Point>
+<coordinates>-100.276,25.7886,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/02/2017 08:07:37 p.m.</description>
+<Point>
+<coordinates>-100.276,25.7884,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/02/2017 08:11:14 p.m.</description>
+<Point>
+<coordinates>-100.276,25.7883,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/02/2017 08:13:43 p.m.</description>
+<Point>
+<coordinates>-100.276,25.7884,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/02/2017 08:17:27 p.m.</description>
+<Point>
+<coordinates>-100.277,25.7884,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/02/2017 08:19:44 p.m.</description>
+<Point>
+<coordinates>-100.275,25.7883,0</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

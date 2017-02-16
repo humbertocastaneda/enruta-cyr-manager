@@ -1,0 +1,2480 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.0'>
+<Document>
+<Style id='apagado'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id='encendido'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id='puntoNoObtenido'>
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="LineaPuntoNoObtenido">
+<LineStyle>
+<color>cc1447ff</color>
+</LineStyle>
+</Style>
+<Style id="lineaapagado">
+<LineStyle>
+<color>ff0000ff</color>
+</LineStyle>
+</Style>
+<name> Recorrido de Leonides</name>
+<description>Recorrido</description>
+<Placemark id="track">
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.341,25.6961,0  -100.341,25.6961,0  -100.341,25.6961,0  -100.341,25.6961,0  -100.341,25.6961,0  -100.341,25.6961,0  -100.341,25.6961,0  -100.341,25.6961,0  -100.341,25.6961,0  -100.14,25.8561,0  -100.14,25.8538,0  -100.139,25.8573,0  -100.14,25.8561,0  -100.182,25.8683,0  -100.139,25.85,0  -100.139,25.8531,0  -100.139,25.85,0  -100.14,25.8517,0  -100.137,25.854,0  -100.139,25.85,0  -100.138,25.8525,0  -100.119,25.8872,0  -100.142,25.8534,0  -100.139,25.8507,0  -100.139,25.8507,0  -100.126,25.8377,0  -100.139,25.8507,0  -100.139,25.8507,0  -100.139,25.8507,0  -100.136,25.8487,0  -100.182,25.8683,0  -100.182,25.8683,0  -100.137,25.8387,0  -100.139,25.85,0  -100.142,25.8534,0  -100.115,25.8238,0  -100.142,25.8534,0  -100.114,25.8239,0  -100.114,25.8252,0  -100.137,25.8387,0  -100.127,25.8369,0  -100.14,25.8507,0  -100.114,25.8239,0  -100.127,25.8369,0  -100.127,25.8369,0  -100.127,25.8369,0  -100.139,25.8507,0  -100.139,25.8507,0  -100.139,25.8507,0  -100.142,25.8534,0  -100.142,25.8534,0  -100.142,25.8534,0  -100.139,25.8507,0  -100.139,25.8507,0  -100.139,25.8507,0  -100.142,25.8534,0  -100.142,25.8534,0  -100.142,25.8534,0  -100.139,25.8511,0  -100.139,25.8511,0  -100.139,25.8511,0  -100.138,25.852,0  -100.138,25.852,0  -100.138,25.852,0  -100.147,25.8586,0  -100.147,25.8586,0  -100.147,25.8586,0  -100.182,25.8683,0  -100.182,25.8683,0  -100.182,25.8683,0  -100.149,25.8588,0  -100.14,25.8561,0  -100.14,25.8561,0  -100.149,25.8588,0  -100.149,25.8588,0  -100.149,25.8588,0  -100.136,25.8576,0  -100.136,25.8576,0  -100.136,25.8576,0  -100.184,25.8671,0  -100.184,25.8671,0  -100.184,25.8671,0  -100.142,25.8534,0  -100.142,25.8534,0  -100.142,25.8534,0  -100.136,25.8576,0  -100.136,25.8576,0  -100.136,25.8576,0  -100.136,25.8576,0  -100.136,25.8576,0  -100.136,25.8576,0  -100.119,25.8872,0  -100.119,25.8872,0  -100.119,25.8872,0  -100.119,25.8872,0  -100.119,25.8872,0  -100.119,25.8872,0  -100.16,25.9053,0  -100.16,25.9053,0  -100.16,25.9053,0  -100.193,25.9138,0  -100.193,25.9138,0  -100.193,25.9138,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.248,25.9132,0  -100.248,25.9132,0  -100.248,25.9132,0  -100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9116,0  -100.249,25.9116,0  -100.249,25.9116,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.27,25.9115,0  -100.27,25.9115,0  -100.27,25.9115,0  -100.27,25.9115,0  -100.27,25.9115,0  -100.27,25.9115,0  -100.251,25.9117,0  -100.251,25.9117,0  -100.251,25.9117,0  -100.251,25.9117,0  -100.251,25.9117,0  -100.251,25.9117,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.912,0  -100.249,25.912,0  -100.249,25.912,0  -100.249,25.912,0  -100.249,25.912,0  -100.249,25.912,0  -100.238,25.8967,0  -100.238,25.8967,0  -100.238,25.8967,0  -100.238,25.8967,0  -100.238,25.8967,0  -100.238,25.8967,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.263,25.9153,0  -100.263,25.9153,0  -100.263,25.9153,0  -100.263,25.9153,0  -100.263,25.9153,0  -100.263,25.9153,0  -100.264,25.9149,0  -100.264,25.9149,0  -100.264,25.9149,0  -100.264,25.9149,0  -100.264,25.9149,0  -100.264,25.9149,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8786,0  -100.255,25.8787,0  -100.255,25.8787,0  -100.255,25.8786,0  -100.255,25.8787,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.257,25.8761,0  -100.257,25.8761,0  -100.257,25.8761,0  -100.257,25.8761,0  -100.257,25.8761,0  -100.258,25.8289,0  -100.258,25.8289,0  -100.227,25.8248,0  -100.227,25.8248,0  -100.227,25.8248,0  -100.227,25.8248,0  -100.233,25.779,0  -100.233,25.779,0  -100.243,25.7636,0  -100.243,25.7636,0  -100.243,25.7636,0  -100.246,25.7519,0  -100.246,25.7519,0  -100.249,25.7422,0  -100.249,25.7422,0  -100.249,25.7422,0  -100.247,25.7415,0  -100.247,25.7415,0  -100.247,25.7416,0  -100.247,25.7416,0  -100.244,25.7421,0  -100.239,25.7396,0  -100.239,25.7396,0  -100.239,25.7396,0  -100.243,25.7354,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track1">
+<styleUrl>#lineaapagado</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.341,25.6961,0  -100.14,25.8561,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track2">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.14,25.8538,0  -100.139,25.8573,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track3">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.14,25.8561,0  -100.182,25.8683,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track4">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.139,25.85,0  -100.139,25.8531,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track5">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.139,25.85,0  -100.14,25.8517,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track6">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.137,25.854,0  -100.139,25.85,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track7">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.138,25.8525,0  -100.119,25.8872,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track8">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.142,25.8534,0  -100.139,25.8507,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track9">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.139,25.8507,0  -100.126,25.8377,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track10">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.139,25.8507,0  -100.139,25.8507,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track11">
+<styleUrl>#lineaapagado</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.139,25.8507,0  -100.136,25.8487,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track12">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.182,25.8683,0  -100.182,25.8683,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track13">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.137,25.8387,0  -100.139,25.85,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track14">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.137,25.8387,0  -100.127,25.8369,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track15">
+<styleUrl>#lineaapagado</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.14,25.8507,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track16">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.139,25.8511,0  -100.139,25.8511,0  -100.139,25.8511,0  -100.138,25.852,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track17">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.147,25.8586,0  -100.147,25.8586,0  -100.147,25.8586,0  -100.182,25.8683,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track18">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.149,25.8588,0  -100.149,25.8588,0  -100.149,25.8588,0  -100.136,25.8576,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track19">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.142,25.8534,0  -100.142,25.8534,0  -100.142,25.8534,0  -100.136,25.8576,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track20">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.136,25.8576,0  -100.136,25.8576,0  -100.136,25.8576,0  -100.119,25.8872,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track21">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.119,25.8872,0  -100.119,25.8872,0  -100.119,25.8872,0  -100.16,25.9053,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track22">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.193,25.9138,0  -100.193,25.9138,0  -100.193,25.9138,0  -100.225,25.8776,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track23">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.225,25.8776,0  -100.248,25.9132,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track24">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9117,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track25">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9117,0  -100.249,25.9116,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track26">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.27,25.9115,0  -100.27,25.9115,0  -100.27,25.9115,0  -100.27,25.9115,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track27">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.251,25.9117,0  -100.251,25.9117,0  -100.251,25.9117,0  -100.251,25.9117,0  -100.251,25.9117,0  -100.251,25.9117,0  -100.25,25.9124,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track28">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.25,25.9124,0  -100.249,25.9118,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track29">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.249,25.912,0  -100.249,25.912,0  -100.249,25.912,0  -100.249,25.912,0  -100.249,25.912,0  -100.249,25.912,0  -100.238,25.8967,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track30">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.238,25.8967,0  -100.238,25.8967,0  -100.238,25.8967,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track31">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.249,25.9118,0  -100.263,25.9153,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track32">
+<styleUrl>#lineaapagado</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.263,25.9153,0  -100.263,25.9153,0  -100.263,25.9153,0  -100.264,25.9149,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track33">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.264,25.9149,0  -100.264,25.9149,0  -100.264,25.9149,0  -100.264,25.9149,0  -100.264,25.9149,0  -100.255,25.8788,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track34">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8786,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track35">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.255,25.8787,0  -100.255,25.8787,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track36">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.255,25.8786,0  -100.255,25.8787,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track37">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track38">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.255,25.8788,0  -100.255,25.8788,0  -100.255,25.8788,0  -100.257,25.8761,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track39">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.257,25.8761,0  -100.257,25.8761,0  -100.257,25.8761,0  -100.257,25.8761,0  -100.258,25.8289,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track40">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.258,25.8289,0  -100.227,25.8248,0  -100.227,25.8248,0  -100.227,25.8248,0  -100.227,25.8248,0  -100.233,25.779,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track41">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.233,25.779,0  -100.243,25.7636,0  -100.243,25.7636,0  -100.243,25.7636,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track42">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.246,25.7519,0  -100.246,25.7519,0  -100.249,25.7422,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track43">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.249,25.7422,0  -100.249,25.7422,0  -100.247,25.7415,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track44">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.247,25.7415,0  -100.247,25.7416,0  -100.247,25.7416,0  -100.244,25.7421,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track45">
+<styleUrl>#lineaapagado</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.239,25.7396,0  -100.239,25.7396,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track46">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.239,25.7396,0  -100.243,25.7354,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track47">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.242,25.7378,0  -100.242,25.7378,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track48">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track49">
+<styleUrl>#LineaPuntoNoObtenido</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  -100.242,25.7378,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="track50">
+<styleUrl>#lineaapagado</styleUrl>
+<name>Recorrido</name>
+<LineString>
+<coordinates>-100.242,25.7378,0  -100.242,25.7378,0  </coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:15/12/2016 07:12:21 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 07:22:20 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 07:32:20 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 07:37:20 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 07:42:20 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 07:47:20 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 07:52:20 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 07:57:23 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:15/12/2016 07:58:06 a.m.</description>
+<Point>
+<coordinates>-100.341,25.6961,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:15/12/2016 10:15:50 a.m.</description>
+<Point>
+<coordinates>-100.14,25.8561,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 10:20:50 a.m.</description>
+<Point>
+<coordinates>-100.14,25.8538,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 10:21:28 a.m.</description>
+<Point>
+<coordinates>-100.139,25.8573,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 10:26:28 a.m.</description>
+<Point>
+<coordinates>-100.14,25.8561,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 10:30:36 a.m.</description>
+<Point>
+<coordinates>-100.182,25.8683,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 10:35:36 a.m.</description>
+<Point>
+<coordinates>-100.139,25.85,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 10:35:37 a.m.</description>
+<Point>
+<coordinates>-100.139,25.8531,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 10:40:37 a.m.</description>
+<Point>
+<coordinates>-100.139,25.85,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 10:41:31 a.m.</description>
+<Point>
+<coordinates>-100.14,25.8517,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 10:46:31 a.m.</description>
+<Point>
+<coordinates>-100.137,25.854,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 10:51:18 a.m.</description>
+<Point>
+<coordinates>-100.139,25.85,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 10:56:18 a.m.</description>
+<Point>
+<coordinates>-100.138,25.8525,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 10:56:36 a.m.</description>
+<Point>
+<coordinates>-100.119,25.8872,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 11:01:36 a.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 11:03:30 a.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 11:08:30 a.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:15/12/2016 11:12:15 a.m.</description>
+<Point>
+<coordinates>-100.126,25.8377,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 11:17:15 a.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 11:17:33 a.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:15/12/2016 11:21:59 a.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:15/12/2016 11:26:07 a.m.</description>
+<Point>
+<coordinates>-100.136,25.8487,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 11:31:07 a.m.</description>
+<Point>
+<coordinates>-100.182,25.8683,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 11:31:14 a.m.</description>
+<Point>
+<coordinates>-100.182,25.8683,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 11:36:31 a.m.</description>
+<Point>
+<coordinates>-100.137,25.8387,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 11:40:17 a.m.</description>
+<Point>
+<coordinates>-100.139,25.85,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 11:45:19 a.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 11:50:45 a.m.</description>
+<Point>
+<coordinates>-100.115,25.8238,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 11:58:04 a.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:03:04 p.m.</description>
+<Point>
+<coordinates>-100.114,25.8239,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:08:13 p.m.</description>
+<Point>
+<coordinates>-100.114,25.8252,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 11:36:31 a.m.</description>
+<Point>
+<coordinates>-100.137,25.8387,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:15/12/2016 12:11:37 p.m.</description>
+<Point>
+<coordinates>-100.127,25.8369,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:15/12/2016 12:12:40 p.m.</description>
+<Point>
+<coordinates>-100.14,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:19:41 p.m.</description>
+<Point>
+<coordinates>-100.114,25.8239,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:24:41 p.m.</description>
+<Point>
+<coordinates>-100.127,25.8369,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:24:41 p.m.</description>
+<Point>
+<coordinates>-100.127,25.8369,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:24:41 p.m.</description>
+<Point>
+<coordinates>-100.127,25.8369,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:29:41 p.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:29:41 p.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:29:41 p.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:34:44 p.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:34:44 p.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:34:44 p.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:41:00 p.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:41:00 p.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:41:00 p.m.</description>
+<Point>
+<coordinates>-100.139,25.8507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:51:00 p.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:51:00 p.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:51:00 p.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 12:56:00 p.m.</description>
+<Point>
+<coordinates>-100.139,25.8511,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 12:56:00 p.m.</description>
+<Point>
+<coordinates>-100.139,25.8511,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 12:56:00 p.m.</description>
+<Point>
+<coordinates>-100.139,25.8511,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:56:04 p.m.</description>
+<Point>
+<coordinates>-100.138,25.852,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:56:04 p.m.</description>
+<Point>
+<coordinates>-100.138,25.852,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 12:56:04 p.m.</description>
+<Point>
+<coordinates>-100.138,25.852,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:01:04 p.m.</description>
+<Point>
+<coordinates>-100.147,25.8586,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:01:04 p.m.</description>
+<Point>
+<coordinates>-100.147,25.8586,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:01:04 p.m.</description>
+<Point>
+<coordinates>-100.147,25.8586,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:01:42 p.m.</description>
+<Point>
+<coordinates>-100.182,25.8683,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:01:42 p.m.</description>
+<Point>
+<coordinates>-100.182,25.8683,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:01:42 p.m.</description>
+<Point>
+<coordinates>-100.182,25.8683,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:07:24 p.m.</description>
+<Point>
+<coordinates>-100.149,25.8588,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:12:26 p.m.</description>
+<Point>
+<coordinates>-100.14,25.8561,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:12:26 p.m.</description>
+<Point>
+<coordinates>-100.14,25.8561,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:22:16 p.m.</description>
+<Point>
+<coordinates>-100.149,25.8588,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:22:16 p.m.</description>
+<Point>
+<coordinates>-100.149,25.8588,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:22:16 p.m.</description>
+<Point>
+<coordinates>-100.149,25.8588,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:22:25 p.m.</description>
+<Point>
+<coordinates>-100.136,25.8576,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:22:25 p.m.</description>
+<Point>
+<coordinates>-100.136,25.8576,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:22:25 p.m.</description>
+<Point>
+<coordinates>-100.136,25.8576,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:27:44 p.m.</description>
+<Point>
+<coordinates>-100.184,25.8671,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:27:44 p.m.</description>
+<Point>
+<coordinates>-100.184,25.8671,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:27:44 p.m.</description>
+<Point>
+<coordinates>-100.184,25.8671,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:32:44 p.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:32:44 p.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:32:44 p.m.</description>
+<Point>
+<coordinates>-100.142,25.8534,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:33:47 p.m.</description>
+<Point>
+<coordinates>-100.136,25.8576,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:33:47 p.m.</description>
+<Point>
+<coordinates>-100.136,25.8576,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:33:47 p.m.</description>
+<Point>
+<coordinates>-100.136,25.8576,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:38:47 p.m.</description>
+<Point>
+<coordinates>-100.136,25.8576,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:38:47 p.m.</description>
+<Point>
+<coordinates>-100.136,25.8576,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:38:47 p.m.</description>
+<Point>
+<coordinates>-100.136,25.8576,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:39:07 p.m.</description>
+<Point>
+<coordinates>-100.119,25.8872,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:39:07 p.m.</description>
+<Point>
+<coordinates>-100.119,25.8872,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:39:07 p.m.</description>
+<Point>
+<coordinates>-100.119,25.8872,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:44:07 p.m.</description>
+<Point>
+<coordinates>-100.119,25.8872,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:44:07 p.m.</description>
+<Point>
+<coordinates>-100.119,25.8872,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:44:07 p.m.</description>
+<Point>
+<coordinates>-100.119,25.8872,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:45:07 p.m.</description>
+<Point>
+<coordinates>-100.16,25.9053,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:45:07 p.m.</description>
+<Point>
+<coordinates>-100.16,25.9053,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:45:07 p.m.</description>
+<Point>
+<coordinates>-100.16,25.9053,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:50:07 p.m.</description>
+<Point>
+<coordinates>-100.193,25.9138,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:50:07 p.m.</description>
+<Point>
+<coordinates>-100.193,25.9138,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:50:07 p.m.</description>
+<Point>
+<coordinates>-100.193,25.9138,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:54:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:54:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 01:54:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:59:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:59:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 01:59:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:04:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:04:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:04:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:09:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:09:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:09:55 p.m.</description>
+<Point>
+<coordinates>-100.225,25.8776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:14:54 p.m.</description>
+<Point>
+<coordinates>-100.248,25.9132,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:14:54 p.m.</description>
+<Point>
+<coordinates>-100.248,25.9132,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:14:54 p.m.</description>
+<Point>
+<coordinates>-100.248,25.9132,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:19:54 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:19:54 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:19:54 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:24:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:24:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:24:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:29:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:29:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:29:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:29:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9116,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:29:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9116,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:29:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9116,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:34:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:34:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:34:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:34:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:34:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:34:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:39:30 p.m.</description>
+<Point>
+<coordinates>-100.27,25.9115,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:39:30 p.m.</description>
+<Point>
+<coordinates>-100.27,25.9115,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:39:30 p.m.</description>
+<Point>
+<coordinates>-100.27,25.9115,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:39:30 p.m.</description>
+<Point>
+<coordinates>-100.27,25.9115,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:39:30 p.m.</description>
+<Point>
+<coordinates>-100.27,25.9115,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:39:30 p.m.</description>
+<Point>
+<coordinates>-100.27,25.9115,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:44:30 p.m.</description>
+<Point>
+<coordinates>-100.251,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:44:30 p.m.</description>
+<Point>
+<coordinates>-100.251,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:44:30 p.m.</description>
+<Point>
+<coordinates>-100.251,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:44:30 p.m.</description>
+<Point>
+<coordinates>-100.251,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:44:30 p.m.</description>
+<Point>
+<coordinates>-100.251,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:44:30 p.m.</description>
+<Point>
+<coordinates>-100.251,25.9117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:47:04 p.m.</description>
+<Point>
+<coordinates>-100.25,25.9124,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:47:04 p.m.</description>
+<Point>
+<coordinates>-100.25,25.9124,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:47:04 p.m.</description>
+<Point>
+<coordinates>-100.25,25.9124,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:49:30 p.m.</description>
+<Point>
+<coordinates>-100.25,25.9124,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:49:30 p.m.</description>
+<Point>
+<coordinates>-100.25,25.9124,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:49:30 p.m.</description>
+<Point>
+<coordinates>-100.25,25.9124,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:52:04 p.m.</description>
+<Point>
+<coordinates>-100.25,25.9124,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:52:04 p.m.</description>
+<Point>
+<coordinates>-100.25,25.9124,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:52:04 p.m.</description>
+<Point>
+<coordinates>-100.25,25.9124,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:52:04 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:52:04 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:52:04 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:54:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.912,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:54:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.912,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:54:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.912,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:57:04 p.m.</description>
+<Point>
+<coordinates>-100.249,25.912,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:57:04 p.m.</description>
+<Point>
+<coordinates>-100.249,25.912,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:57:04 p.m.</description>
+<Point>
+<coordinates>-100.249,25.912,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:57:04 p.m.</description>
+<Point>
+<coordinates>-100.238,25.8967,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:57:04 p.m.</description>
+<Point>
+<coordinates>-100.238,25.8967,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 02:57:04 p.m.</description>
+<Point>
+<coordinates>-100.238,25.8967,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:59:30 p.m.</description>
+<Point>
+<coordinates>-100.238,25.8967,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:59:30 p.m.</description>
+<Point>
+<coordinates>-100.238,25.8967,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 02:59:30 p.m.</description>
+<Point>
+<coordinates>-100.238,25.8967,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:02:04 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:02:04 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:02:04 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:02:09 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:02:09 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:02:09 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:04:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:04:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:04:30 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:07:09 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:07:09 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:07:09 p.m.</description>
+<Point>
+<coordinates>-100.249,25.9118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:07:49 p.m.</description>
+<Point>
+<coordinates>-100.263,25.9153,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:07:49 p.m.</description>
+<Point>
+<coordinates>-100.263,25.9153,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:07:49 p.m.</description>
+<Point>
+<coordinates>-100.263,25.9153,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:15/12/2016 03:07:50 p.m.</description>
+<Point>
+<coordinates>-100.263,25.9153,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:15/12/2016 03:07:50 p.m.</description>
+<Point>
+<coordinates>-100.263,25.9153,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:15/12/2016 03:07:50 p.m.</description>
+<Point>
+<coordinates>-100.263,25.9153,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:09:30 p.m.</description>
+<Point>
+<coordinates>-100.264,25.9149,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:09:30 p.m.</description>
+<Point>
+<coordinates>-100.264,25.9149,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:09:30 p.m.</description>
+<Point>
+<coordinates>-100.264,25.9149,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:14:30 p.m.</description>
+<Point>
+<coordinates>-100.264,25.9149,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:14:30 p.m.</description>
+<Point>
+<coordinates>-100.264,25.9149,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:14:30 p.m.</description>
+<Point>
+<coordinates>-100.264,25.9149,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:15/12/2016 03:15:53 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:15/12/2016 03:15:53 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:15/12/2016 03:15:53 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:20:53 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:20:53 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:20:53 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:21:24 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8786,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:26:24 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8787,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:26:24 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8787,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:31:24 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8786,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:31:24 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8787,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:36:24 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:36:24 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:36:36 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:41:24 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:41:36 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:46:24 p.m.</description>
+<Point>
+<coordinates>-100.255,25.8788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:46:25 p.m.</description>
+<Point>
+<coordinates>-100.257,25.8761,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:46:36 p.m.</description>
+<Point>
+<coordinates>-100.257,25.8761,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:51:25 p.m.</description>
+<Point>
+<coordinates>-100.257,25.8761,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:51:36 p.m.</description>
+<Point>
+<coordinates>-100.257,25.8761,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:56:25 p.m.</description>
+<Point>
+<coordinates>-100.257,25.8761,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 03:56:28 p.m.</description>
+<Point>
+<coordinates>-100.258,25.8289,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 03:56:36 p.m.</description>
+<Point>
+<coordinates>-100.258,25.8289,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:01:28 p.m.</description>
+<Point>
+<coordinates>-100.227,25.8248,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:01:36 p.m.</description>
+<Point>
+<coordinates>-100.227,25.8248,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:06:28 p.m.</description>
+<Point>
+<coordinates>-100.227,25.8248,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:06:36 p.m.</description>
+<Point>
+<coordinates>-100.227,25.8248,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 04:11:27 p.m.</description>
+<Point>
+<coordinates>-100.233,25.779,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:11:28 p.m.</description>
+<Point>
+<coordinates>-100.233,25.779,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:16:27 p.m.</description>
+<Point>
+<coordinates>-100.243,25.7636,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:16:28 p.m.</description>
+<Point>
+<coordinates>-100.243,25.7636,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 04:16:43 p.m.</description>
+<Point>
+<coordinates>-100.243,25.7636,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:21:28 p.m.</description>
+<Point>
+<coordinates>-100.246,25.7519,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:21:43 p.m.</description>
+<Point>
+<coordinates>-100.246,25.7519,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 04:26:25 p.m.</description>
+<Point>
+<coordinates>-100.249,25.7422,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:26:28 p.m.</description>
+<Point>
+<coordinates>-100.249,25.7422,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:31:25 p.m.</description>
+<Point>
+<coordinates>-100.249,25.7422,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 04:31:27 p.m.</description>
+<Point>
+<coordinates>-100.247,25.7415,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:31:28 p.m.</description>
+<Point>
+<coordinates>-100.247,25.7415,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:36:27 p.m.</description>
+<Point>
+<coordinates>-100.247,25.7416,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:36:28 p.m.</description>
+<Point>
+<coordinates>-100.247,25.7416,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 04:37:51 p.m.</description>
+<Point>
+<coordinates>-100.244,25.7421,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:15/12/2016 04:41:16 p.m.</description>
+<Point>
+<coordinates>-100.239,25.7396,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:41:27 p.m.</description>
+<Point>
+<coordinates>-100.239,25.7396,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:46:27 p.m.</description>
+<Point>
+<coordinates>-100.239,25.7396,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#encendido</styleUrl>
+<name>Celular Encendido</name>
+<description>Fecha y Hora:15/12/2016 04:46:45 p.m.</description>
+<Point>
+<coordinates>-100.243,25.7354,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:51:45 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 04:52:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 04:52:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:57:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:57:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 04:57:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:02:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:02:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:07:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:07:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:07:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto</name>
+<description>Fecha y Hora:15/12/2016 04:52:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:12:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:12:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:12:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:17:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:17:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:17:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:02:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:22:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:22:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:22:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:27:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:27:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:27:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:32:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:32:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#puntoNoObtenido</styleUrl>
+<name>Punto no Obtenido</name>
+<description>Fecha y Hora:15/12/2016 05:32:05 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:15/12/2016 05:34:06 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:15/12/2016 05:34:06 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#apagado</styleUrl>
+<name>Celular apagado</name>
+<description>Fecha y Hora:15/12/2016 05:34:06 p.m.</description>
+<Point>
+<coordinates>-100.242,25.7378,0</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
