@@ -4,10 +4,10 @@
 class SQLHelper{
 	
 	private function connect(){
-		$basededatos="db1007397_cortrexGNF";
+		$basededatos="db1006844_cortrexMexicana";
 		$servidor= "10.61.37.44";
 		$pass="Sotixe_69";
-		$usu="u1007397_cgnf";
+		$usu="u1006844_corMexi";
 		
 		$mysqli = new mysqli( $servidor, $usu, $pass , $basededatos);
 		if ($mysqli -> connect_errno)
@@ -74,6 +74,7 @@ class SQLHelper{
 		$insert->path = $path;
 		$insert->name = $imageName;
 		$insert->fecha = substr($path, -8);
+		$insert->idpoliza = substr($imageName, -28, 10);
 		
 		$this->insertRaw("fotos", $insert);
 		

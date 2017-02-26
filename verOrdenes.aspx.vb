@@ -323,7 +323,48 @@ Partial Class _Default
         setDatos("ord.idOrden", lbOrdenes.SelectedValue)
     End Sub
 
+
     Public Sub setImagenes(conn As MySqlConnection)
+
+        Dim fechaFinal As String = ls_fechaDeInicio
+        Dim selectSQL As String
+
+        If fechaFinal.Length >= 10 Then
+            fechaFinal = ls_fechaDeInicio.Substring(6, 4) & ls_fechaDeInicio.Substring(3, 2) & ls_fechaDeInicio.Substring(0, 2)
+        Else
+            fechaFinal = 0
+        End If
+
+        If ls_sinRegistro.Equals("1") Then
+            selectSQL = "select * from fotos where idorden=0 and idpoliza=" & Me.ls_poliza & " and fecha =" & fechaFinal
+
+        Else
+            selectSQL = "select * from fotos where idorden=" & Me.ls_numOrden
+
+        End If
+
+
+
+        Dim ds As DataSet = conectarMySql(conn, selectSQL, "fotos", False)
+        Dim servidorFotos As String = Server.MapPath("~/")
+        Dim images As New List(Of String)
+
+        For Each row As DataRow In ds.Tables(0).Rows
+            images.Add(String.Format("~/{0}/{1}", row.Item("path"), row.Item("name")))
+        Next
+
+
+        RepeaterImages.DataSource = images
+        RepeaterImages.DataBind()
+
+        If images.Count = 0 Then
+            setImagenesOld(conn)
+        End If
+
+
+    End Sub
+
+    Public Sub setImagenesOld(conn As MySqlConnection)
         Dim ls_numOrden As String
         Dim ls_poliza As String
         Dim nombreGenerico As String
