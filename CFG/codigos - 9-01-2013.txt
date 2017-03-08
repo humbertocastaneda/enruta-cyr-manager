@@ -1,0 +1,305 @@
+codigos                                           
+codigo                                            Codigo                                                                                                                                                5   0    0
+descripcion                                       Descripción                                                                                                                                           30  5    0
+descripcionLarga                                  Descripción larga                                                                                                                                     50  35   0
+padre                                             A quien pertenece la anomalia                                                                                                                         5   85   0
+padreEsp                                          A quien pertenece esta Especificacion de orden                                                                                                        5   90   0
+esVerificacion                                    Identifica si la orden es una verificacion                                                                                                            1   95   0
+comentarioOrden                                   El comentario que tendra esa orden en dicho estado                                                                                                    5   96   0
+-                                                                                                                                                                                                                 
+TO001Remocion                      Retiro de medidor por adeudo                                4     
+TO502Reinstalación                 Reinstalación de medidor para uso comercial                 0     
+TO503Verificación reducción        Verif. de desconexión/reducción de servicio                 1     
+TO571Reducción                     Reducción del servicio por adeudo                           0     
+TO572Normalizacion                 Normalización del servicio                                  2     
+TO002Desconexion                   Desconexion del Servicio                                    4     
+TO868Reconectar Sup                Reconectar Servicio Suprimido                               0     
+TO869Reconectar Sup SC             Reconectar Servicio Suprimido Sin Cobro                     2     
+AV078Carro obstruyendo el med                                                        TO001     0     
+AV084Cliente conflictivo                                                             TO001     0     
+AV074Cliente Presentó Pago                                                           TO001     0     
+AV020Cte no permitió realización                                                     TO001     0     
+AV086Med con reja o protector                                                        TO001     0     
+AV083Medidor dentro de caja                                                          TO001     0     
+AV077Medidor empotrado                                                               TO001     0     
+AV085Medidor en poder de Cte                                                         TO001     0     
+AV076Medidor incorrecto                                                              TO001     0     
+AV075Medidor por dentro                                                              TO001     0     
+AV081No se encontró med instalado                                                    TO001     0     
+AV082No se localizo núm oficial                                                      TO001     0     
+AV080No se realizó perro bravo                                                       TO001     0     
+AV079Zona conflictiva                                                                TO001     0     
+AV020Cte no permitió realización                                                     TO502     0     
+AV087Falta de material                                                               TO502     0     
+AV088Habilitar toma                                                                  TO502     0     
+AV089No hay toma visible                                                             TO502     0     
+AV082No se localizo núm oficial                                                      TO502     0     
+AV080No se realizó perro bravo                                                       TO502     0     
+AV091Predio abandonado                                                               TO502     0     
+AV092Ramal galvanizado dañado                                                        TO502     0     
+AV090Sin interior predio solo                                                        TO502     0     
+AV093Toma cancelada de la calle                                                      TO502     0     
+AV094Toma no identificada                                                            TO502     0     
+AV095Toma por dentro                                                                 TO502     0     
+AV096Toma sin agua                                                                   TO502     0     
+AV079Zona conflictiva                                                                TO502     0     
+AV078Carro obstruyendo el med                                                        TO503     0     
+AV074Cliente Presentó Pago                                                           TO503     0     
+AV020Cte no permitió realización                                                     TO503     0     
+AV087Falta de material                                                               TO503     0     
+AV098Guardia no permitió la entrada                                                  TO503     0     
+AV103Llave de banqueta dañada                                                        TO503     0     
+AV099Llave de banqueta enterrada                                                     TO503     0     
+AV101Med aterrizado da toques                                                        TO503     0     
+AV077Medidor empotrado                                                               TO503     0     
+AV102Medidor enterrado                                                               TO503     0     
+AV076Medidor incorrecto                                                              TO503     0     
+AV075Medidor por dentro                                                              TO503     0     
+AV081No se encontró med instalado                                                    TO503     0     
+AV097No se localizo predio                                                           TO503     0     
+AV080No se realizó perro bravo                                                       TO503     0     
+AV100No tiene control                                                                TO503     0     
+AV104Predio sin medidor                                                              TO503     0     
+AV079Zona conflictiva                                                                TO503     0     
+AV078Carro obstruyendo el med                                                        TO571     0     
+AV084Cliente conflictivo                                                             TO571     0     
+AV074Cliente Presentó Pago                                                           TO571     0     
+AV020Cte no permitió realización                                                     TO571     0     
+AV087Falta de material                                                               TO571     0     
+AV098Guardia no permitió la entrada                                                  TO571     0     
+AV103Llave de banqueta dañada                                                        TO571     0     
+AV099Llave de banqueta enterrada                                                     TO571     0     
+AV101Med aterrizado da toques                                                        TO571     0     
+AV077Medidor empotrado                                                               TO571     0     
+AV102Medidor enterrado                                                               TO571     0     
+AV076Medidor incorrecto                                                              TO571     0     
+AV075Medidor por dentro                                                              TO571     0     
+AV081No se encontró med instalado                                                    TO571     0     
+AV097No se localizo predio                                                           TO571     0     
+AV080No se realizó perro bravo                                                       TO571     0     
+AV100No tiene control                                                                TO571     0     
+AV104Predio sin medidor                                                              TO571     0     
+AV079Zona conflictiva                                                                TO571     0     
+AV078Carro obstruyendo el med                                                        TO572     0     
+AV087Falta de material                                                               TO572     0     
+AV103Llave de banqueta dañada                                                        TO572     0     
+AV101Med aterrizado da toques                                                        TO572     0     
+AV077Medidor empotrado                                                               TO572     0     
+AV102Medidor enterrado                                                               TO572     0     
+AV075Medidor por dentro                                                              TO572     0     
+AV081No se encontró med instalado                                                    TO572     0     
+AV082No se localizo núm oficial                                                      TO572     0     
+AV080No se realizó perro bravo                                                       TO572     0     
+AV104Predio sin medidor                                                              TO572     0     
+AV079Zona conflictiva                                                                TO572     0     
+AV078Carro obstruyendo el med                                                        TO002     0     
+AV084Cliente conflictivo                                                             TO002     0     
+AV074Cliente Presentó Pago                                                           TO002     0     
+AV020Cte no permitió realización                                                     TO002     0     
+AV086Med con reja o protector                                                        TO002     0     
+AV083Medidor dentro de caja                                                          TO002     0     
+AV077Medidor empotrado                                                               TO002     0     
+AV085Medidor en poder de Cte                                                         TO002     0     
+AV076Medidor incorrecto                                                              TO002     0     
+AV075Medidor por dentro                                                              TO002     0     
+AV081No se encontró med instalado                                                    TO002     0     
+AV082No se localizo núm oficial                                                      TO002     0     
+AV080No se realizó perro bravo                                                       TO002     0     
+AV079Zona conflictiva                                                                TO002     0     
+AV078Carro obstruyendo el med                                                        TO868     0     
+AV087Falta de material                                                               TO868     0     
+AV103Llave de banqueta dañada                                                        TO868     0     
+AV101Med aterrizado da toques                                                        TO868     0     
+AV077Medidor empotrado                                                               TO868     0     
+AV102Medidor enterrado                                                               TO868     0     
+AV075Medidor por dentro                                                              TO868     0     
+AV081No se encontró med instalado                                                    TO868     0     
+AV082No se localizo núm oficial                                                      TO868     0     
+AV080No se realizó perro bravo                                                       TO868     0     
+AV104Predio sin medidor                                                              TO868     0     
+AV079Zona conflictiva                                                                TO868     0     
+1    EO002                                                                                     0     
+2    EO003                                                                                     0     
+3    EO004                                                                                     0     
+0    CD000                                                                                     0     
+4    CD001                                                                                     0     
+5    CD002                                                                                     0     
+6    EO007                                                                                     0     
+M2                                                                                             0     
+M1                                                                                             0     
+M3                                                                                             0     
+TQ001Reducción con Bronce                                                                 TO5030     
+TQ002Reducción con Nylón                                                                  TO5030     
+TQ003Reducción con Pinza                                                                  TO5030     
+TQ004Reducción con Nylón Sellos                                                           TO5030     
+TQ005Reducción con Bronce Sellos                                                          TO5030     
+TQ006Reducción con Pinza Sellos                                                           TO5030     
+TQ001Reducción con Bronce                                                                 TO5710     
+TQ002Reducción con Nylón                                                                  TO5710     
+TQ003Reducción con Pinza                                                                  TO5710     
+TQ004Reducción con Nylón Sellos                                                           TO5710     
+TQ005Reducción con Bronce Sellos                                                          TO5710     
+TQ006Reducción con Pinza Sellos                                                           TO5710     
+TQ   TQ000                                                                                     0     
+MC001Azteca PMM                                                                      MC000     0     
+MC002Azteca 3VM                                                                      MC000     0     
+MC003Azteca TM                                                                       MC000     0     
+MC004Azteca TM-2                                                                     MC000     0     
+MC005Badger M25 Bronce                                                               MC000     0     
+MC006Badger RCDLL-15                                                                 MC000     0     
+MC007Badger combinado                                                                MC000     0     
+MC008Delaunet MD-40                                                                  MC000     0     
+MC009Delaunet Aurus 3UM-15                                                           MC000     0     
+MC010Delaunet MD-5                                                                   MC000     0     
+MC011Delaunet MD-15                                                                  MC000     0     
+MC012Delaunet MD-19                                                                  MC000     0     
+MC013Delaunet MMD-15                                                                 MC000     0     
+MC014Delaunet MMD-19                                                                 MC000     0     
+MC015Delaunet UD-15                                                                  MC000     0     
+MC016Delaunet WD-50                                                                  MC000     0     
+MC017Delaunet WD-100                                                                 MC000     0     
+MC018Delaunet WD-150                                                                 MC000     0     
+MC019Delaunet MD-50                                                                  MC000     0     
+MC020Delaunet MD-100                                                                 MC000     0     
+MC021Kent Aurus 3MM-15                                                               MC000     0     
+MC022Kent U                                                                          MC000     0     
+MC023Kent KMS                                                                        MC000     0     
+MC024Kent ABB                                                                        MC000     0     
+MC025Shlumberger Unimag TUII                                                         MC000     0     
+MC026Sensus SR-50                                                                    MC000     0     
+MC027Sensus W160                                                                     MC000     0     
+MC028Y-T MD-15                                                                       MC000     0     
+MC029Iberconta                                                                       MC000     0     
+MC030Badger RCDLL-25                                                                 MC000     0     
+MC031Badger RCDLL-19                                                                 MC000     0     
+MC032Iberconta 3UM-15                                                                MC000     0     
+MC033Azteca MFLT-100                                                                 MC000     0     
+MC034Delaunet WD-250                                                                 MC000     0     
+MC035Sappel Aquila 50                                                                MC000     0     
+MC036Sensus W1000                                                                    MC000     0     
+MC037Sensus W2000                                                                    MC000     0     
+MC038Sensus W3500                                                                    MC000     0     
+MC039Sensus W5500                                                                    MC000     0     
+MC040Sparling 250                                                                    MC000     0     
+MC041Sparling 300                                                                    MC000     0     
+MC042Delaunet MD-25                                                                  MC000     0     
+MC043Shlumberger T-10 5/8                                                            MC000     0     
+MC044Shlumberger T-10 5/8 x 3/4                                                      MC000     0     
+MC045Azteca MFLT-150                                                                 MC000     0     
+MC046Badger RCDLL-40                                                                 MC000     0     
+MC047Badger RCDLL-50                                                                 MC000     0     
+MC048Badger RCDLL II-50                                                              MC000     0     
+MC049Badger RCDLL II-10                                                              MC000     0     
+MC050Badger RCDLL II-150                                                             MC000     0     
+MC051Badger RCDLL II-200                                                             MC000     0     
+MC052Badger RCDLL II-250                                                             MC000     0     
+MC053Badger RCDLL II-300                                                             MC000     0     
+MC054Cicasa AQUARIUS-15                                                              MC000     0     
+MC055Sappel AQUILA-50                                                                MC000     0     
+MC056Sappel AQUILA-100                                                               MC000     0     
+MC057Sensus SR-40                                                                    MC000     0     
+MC058Sensus W-160                                                                    MC000     0     
+MC059Sensus W-1000                                                                   MC000     0     
+MC060Sensus W-2000                                                                   MC000     0     
+MC061Sensus W-3500                                                                   MC000     0     
+MC062Sensus W-5500                                                                   MC000     0     
+MC063Badger Rcdll-Turbo 150                                                          MC000     0     
+MC064Cicasa Vega VD-15                                                               MC000     0     
+MC065Sensus SR-25                                                                    MC000     0     
+MC066Sparling 200                                                                    MC000     0     
+MC067Badger RCDLL II-80                                                              MC000     0     
+MC068Danfoss MAGFLO 5000-100                                                         MC000     0     
+MC069Actaris Flostar M-50                                                            MC000     0     
+MC070Actaris Woltex-100                                                              MC000     0     
+MC071Dorot DVM-15                                                                    MC000     0     
+MC072Actaris UNIMAG TU III                                                           MC000     0     
+MC073Dorot LXSY-15                                                                   MC000     0     
+MC074Sappel Altair 15V3                                                              MC000     0     
+MC075Dorot LXLC-100                                                                  MC000     0     
+MC076Sappel WP-MFD 200                                                               MC000     0     
+MC077Sappel WP-MFD 250                                                               MC000     0     
+MC078Sappel WESAN 150                                                                MC000     0     
+MC079Sappel WP-MFD-100                                                               MC000     0     
+MC080Sappel WP-MFD 50                                                                MC000     0     
+MC081Cicasa M3-15                                                                    MC000     0     
+MC082Marsh Mc Birney 283                                                             MC000     0     
+MC083Sensus WPD-150                                                                  MC000     0     
+MC084Badger 4500-6                                                                   MC000     0     
+MC085Actaris Woltex-50                                                               MC000     0     
+MC086Actaris Woltex-80                                                               MC000     0     
+MC087Actaris Woltex-150                                                              MC000     0     
+MC088Actaris Woltex-200                                                              MC000     0     
+MC089Actaris Woltex-250                                                              MC000     0     
+MC090Actaris Woltex-300                                                              MC000     0     
+MC091Sensus WPD-100                                                                  MC000     0     
+MC092Sappel WP-MFD 80                                                                MC000     0     
+MC093Actaris Multimag TMII-15                                                        MC000     0     
+MC094Sensus WPD MEINECKE                                                             MC000     0     
+MC095Alfa AV3-STAR                                                                   MC000     0     
+MC096Sensus WPD-50                                                                   MC000     0     
+MC097Sensus WPD-80                                                                   MC000     0     
+MC098Sensus WPD MEINECKE-150                                                         MC000     0     
+MC099Otras / desconocida                                                             MC000     0     
+MC100Sensus WPD-200                                                                  MC000     0     
+MC101Sensus WPD MEINECKE-250                                                         MC000     0     
+MC102Sensus WPD-300                                                                  MC000     0     
+MC103Mc CROMETER 4"                                                                  MC000     0     
+MC104Medidor de flujo ultrasonico                                                    MC000     0     
+MC105CICASA MMD-15 NG                                                                MC000     0     
+MC106Elster Iberconta S-130                                                          MC000     0     
+MC107Medidor de flujo magnético                                                      MC000     0     
+MC108Bermad Turbobar WPH100                                                          MC000     0     
+MC109Bermad Turbobar WPH150                                                          MC000     0     
+MC110Bermad Turbobar WPH200                                                          MC000     0     
+MC111Bermad Turbobar WPH250                                                          MC000     0     
+MC112Bermad Turbobar WPH300                                                          MC000     0     
+MC113Bermad Turbobar WPH50                                                           MC000     0     
+MC114Bermad Turbobar WPH80                                                           MC000     0     
+MC115Bar Meters MT-KD 15                                                             MC000     0     
+MC116Bar Meters MT-KD 19                                                             MC000     0     
+MC117Dorot LXSY-19                                                                   MC000     0     
+MC118CICASA MMD-19 NG                                                                MC000     0     
+MC119Elster C-700 15                                                                 MC000     0     
+MC120SCR Anáhuac M 15MM                                                              MC000     0     
+MC121Itrón Unimag Cyble TUIII-15                                                     MC000     0     
+MC122SCR Anáhuac V (termoplastico)                                                   MC000     0     
+MC123ARAD WSTsb 50                                                                   MC000     0     
+MC124ARAD WSTsb 80                                                                   MC000     0     
+MC125ARAD WSTsb 100                                                                  MC000     0     
+MC126ARAD WSTsb 150                                                                  MC000     0     
+MC127ARAD WSTsb 200                                                                  MC000     0     
+MC128ARAD WSTsb 250                                                                  MC000     0     
+MC129ARAD WSTsb 300                                                                  MC000     0     
+MC130SCR Anáhuac V                                                                   MC000     0     
+MC131Macrometer M0306                                                                MC000     0     
+MC132Mc Crometer 6"                                                                  MC000     0     
+MC133SCR Anáhuac M-25                                                                MC000     0     
+MC134Elster C-700 40                                                                 MC000     0     
+MC135NEPTUNE Tru/Flo 150                                                             MC000     0     
+MC136SCR Anáhuac M 19MM                                                              MC000     0     
+MC137SCR Anáhuac WTT                                                                 MC000     0     
+MC138Siemens MAG 8000 IP68 50                                                        MC000     0     
+MC139Siemens MAG 8000 IP68 80                                                        MC000     0     
+MC140Siemens MAG 8000 IP68 100                                                       MC000     0     
+MC141Siemens MAG 8000 IP68 150                                                       MC000     0     
+MC142Siemens MAG 8000 IP68 200                                                       MC000     0     
+MC143Dorot DVM-A 19                                                                  MC000     0     
+C3                                 SE RETIRÓ EL MEDIDOR POR FALTA DE PAGO                      0TO001
+C1                                                                                             0TO001
+C3                                 SE REINSTALÓ EL MEDIDOR                                     0TO502
+C1                                                                                             0TO502
+C3                                 SE ENCONTRÓ REDUCIDO                                        0TO503
+C3-1                               SE ENCONTRÓ NORMAL Y SE REDUJO EL SERVICIO                  0TO503
+C1                                                                                             0TO503
+C1-1                                                                                           0TO503
+C3                                 SE REDUJO EL SERVICIO                                       0TO571
+C1                                                                                             0TO571
+C3                                 SE NORMALIZÓ EL SERVICIO                                    0TO572
+C3-2                               SE ENCONTRÓ NORMAL                                          0TO572
+C1                                                                                             0TO572
+C2                                                                                             0     
+C3                                 SE CERRÓ EL SERVICIO SE COLOCÓ SELLO                        0TO002
+C1                                                                                             0TO002
+C3                                 SE RESTABLECIÓ EL SERVICIO                                  0TO869
+C3-2                               SE ENCONTRÓ RESTABLECIDO                                    0TO869
+C1                                                                                             0TO869

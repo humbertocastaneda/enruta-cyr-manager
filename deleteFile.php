@@ -1,0 +1,1 @@
+<?php$uploadfile=dirname(__FILE__)."\\".$_POST["ruta"];$resultado=0;if (file_exists($uploadfile)){	if (!unlink($uploadfile)){		$resultado=-1;	}}echo $resultado;?>
