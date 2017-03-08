@@ -862,7 +862,6 @@ Partial Class verOrdenesPorEmpleadoFotos
         End Select
     End Function
 
-
     Protected Sub DownloadFiles(sender As Object, e As EventArgs)
         Using zip As New ZipFile()
             Dim extension As String = ".jpg"
@@ -876,38 +875,38 @@ Partial Class verOrdenesPorEmpleadoFotos
                 Dim ds As DataSet = conectarMySql(conn, selectSQL, "ordenes", True)
 
                 For Each row As DataRow In ds.Tables(0).Rows
+                    'If TryCast(row.FindControl("chkSelect"), CheckBox).Checked Then
+                    '    Dim filePath As String = TryCast(row.FindControl("lblFilePath"), Label).Text
+                    '    
+                    'End If
 
                     Dim ls_numOrden As String = row("numOrden")
+                    ls_numOrden = ls_numOrden.PadLeft(obtieneLongitud(conn, "numOrden"), "0")
                     Dim ls_poliza As String = row("poliza")
-                    Dim ls_sinRegistro As String = row("sinRegistro")
-                    Dim fechaFinal As String = row("fechaDeInicio")
-                    Dim query As String
+                    ls_poliza = ls_poliza.PadLeft(obtieneLongitud(conn, "poliza"), "0")
+                    Dim nombreGenerico As String = ls_numOrden & "_" & ls_poliza
+                    'Buscamos por la foto de antes
 
-                    If fechaFinal.Length >= 10 Then
-                        fechaFinal = fechaFinal.Substring(6, 4) & fechaFinal.Substring(3, 2) & fechaFinal.Substring(0, 2)
-                    Else
-                        fechaFinal = 0
-                    End If
-
-                    If ls_sinRegistro.Equals("1") Then
-                        query = "select * from fotos where idorden=0 and idpoliza=" & ls_poliza & " and fecha =" & fechaFinal
-
-                    Else
-                        query = "select * from fotos where idorden=" & ls_numOrden
-
-                    End If
-
-
-
-                    Dim dsFotos As DataSet = conectarMySql(conn, query, "fotos", False)
-                    Dim servidorFotos As String = Server.MapPath("~/")
-                    Dim images As New List(Of String)
-
-
-                    For Each rowFotos As DataRow In dsFotos.Tables(0).Rows
-                        zip.AddFile(String.Format("{0}/{1}/{2}", servidorFotos, rowFotos.Item("path"), rowFotos.Item("name")), "fotos")
+                    'Dim images As New List(Of String)
+                    For Each foundFile As String In My.Computer.FileSystem.GetFiles(
+                     Server.MapPath("~/") & "fotos\",
+                    Microsoft.VisualBasic.FileIO.SearchOption.SearchTopLevelOnly, nombreGenerico & "*.jpg")
+                        zip.AddFile(foundFile, "fotos")
+                        'images.Add(String.Format("~/fotos/{0}", System.IO.Path.GetFileName(foundFile)))
                     Next
 
+                    'Dim filePath As String = Server.MapPath("~/") & "fotos\" & nombreGenerico & "_" & "1" & extension
+                    'If System.IO.File.Exists(filePath) Then
+                    '    zip.AddFile(filePath, "fotos")
+
+                    'End If
+
+                    ''buscamos por la foto del despues
+                    'filePath = Server.MapPath("~/") & "fotos\" & nombreGenerico & "_" & "2" & extension
+                    'If System.IO.File.Exists(filePath) Then
+                    '    zip.AddFile(filePath, "fotos")
+
+                    'End If
                 Next
                 Response.Clear()
                 Response.BufferOutput = False
