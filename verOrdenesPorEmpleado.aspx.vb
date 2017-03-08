@@ -472,30 +472,30 @@ Partial Class verOrdenesPorEmpleado
             
 
             If (rbTipoDeBusqueda.SelectedValue = 0) Then 'Todas las que no se han empezado
-                selectSQL = "Select if (isnull(acc.nombre), '', acc.nombre) accionCorte, ord.estadoDeLaRevision,  if(isnull(emp.alias) or LENGTH(emp.alias)=0, CONCAT_WS(' ',emp.nombre,  emp.appat, emp.apmat), emp.alias) tecnico,  cli.poliza poliza,  if (isnull(ord.estadoAnterior), '',ord.estadoAnterior) estadoAnterior , ord.idOrden, ord.idOrden numorden, ord.tipodeOrden, est.nombre estadodelaorden ,ord.numMedidor, ord.lectura, mot.nombre motivo , ord.fechadeejecucion fechadeejecucion, fechaderecepcion, ord.comentarios, ord.numSello, ord.latitud, ord.longitud " & _
-                                      " , cli.comoLlegar, cli.numExterior, cli.numInterior,col.nombre colonia, mun.nombre municipio, cli.Nombre cliente, cli.poliza , cli.entreCalles,ca.nombre calle,ord.numMedidor numMedidor from ordenes ord left outer join  tareas tar on ( tar.idtarea=ord.idtarea) left outer join codigos mot on (ord.motivo=mot.codigo) left outer join codigos acc on (concat('AC', LPad(ord.lectura, 3, '0'))=acc.codigo), empleados emp,  codigos est, clientes cli " & _
-                                      ",municipios mun, " & _
-                                        "colonias col, " & _
-                                        "calles ca " & _
-                                        "where 1=1 " & porUsuario & " and est.codigo=ord.estadodelaorden" & " and ord.estadoDeLaorden='EO001' and cli.idCliente=ord.idCliente and tar.idEmpleado=emp.idEmpleado " & _
-                                      " and " & traerTiposDeOrdenSeleccionados() & _
-                                      "and ca.idColonia = col.idColonia " & _
-                                         "and col.idMunicipio = mun.idMunicipio " & _
-                                        "and ca.idCalle = cli.idCalle " & _
-                                        ls_filtro & _
+                selectSQL = "Select if (isnull(acc.nombre), '', acc.nombre) accionCorte, ord.sinregistro, ord.fechaDeInicio, ord.estadoDeLaRevision,  if(isnull(emp.alias) or LENGTH(emp.alias)=0, CONCAT_WS(' ',emp.nombre,  emp.appat, emp.apmat), emp.alias) tecnico,  cli.poliza poliza,  if (isnull(ord.estadoAnterior), '',ord.estadoAnterior) estadoAnterior , ord.idOrden, ord.idOrden numorden, ord.tipodeOrden, est.nombre estadodelaorden ,ord.numMedidor, ord.lectura, mot.nombre motivo , ord.fechadeejecucion fechadeejecucion, fechaderecepcion, ord.comentarios, ord.numSello, ord.latitud, ord.longitud " &
+                                      " , cli.comoLlegar, cli.numExterior, cli.numInterior,col.nombre colonia, mun.nombre municipio, cli.Nombre cliente, cli.poliza , cli.entreCalles,ca.nombre calle,ord.numMedidor numMedidor from ordenes ord left outer join  tareas tar on ( tar.idtarea=ord.idtarea) left outer join codigos mot on (ord.motivo=mot.codigo) left outer join codigos acc on (concat('AC', LPad(ord.lectura, 3, '0'))=acc.codigo), empleados emp,  codigos est, clientes cli " &
+                                      ",municipios mun, " &
+                                        "colonias col, " &
+                                        "calles ca " &
+                                        "where 1=1 " & porUsuario & " and est.codigo=ord.estadodelaorden" & " and ord.estadoDeLaorden='EO001' and cli.idCliente=ord.idCliente and tar.idEmpleado=emp.idEmpleado " &
+                                      " and " & traerTiposDeOrdenSeleccionados() &
+                                      "and ca.idColonia = col.idColonia " &
+                                         "and col.idMunicipio = mun.idMunicipio " &
+                                        "and ca.idCalle = cli.idCalle " &
+                                        ls_filtro &
                                       " order By ord.tipodeorden, mun.nombre,col.nombre, ca.nombre, ord.idOrden "
                 dgOrdenes.Columns(8).Visible = False 'Ocultamos la fecha de ejecucion
             Else
-                selectSQL = "Select  if (isnull(acc.nombre), '', acc.nombre) accionCorte, ord.estadoDeLaRevision, if(isnull(emp.alias) or LENGTH(emp.alias)=0, CONCAT_WS(' ',emp.nombre,  emp.appat, emp.apmat), emp.alias) tecnico, cli.poliza poliza, if (isnull(ord.estadoAnterior), '',ord.estadoAnterior) estadoAnterior, ord.idOrden, ord.idOrden numorden, ord.tipodeOrden, est.nombre estadodelaorden ,ord.numMedidor, ord.lectura, mot.nombre motivo , ord.fechadeejecucion fechadeejecucion, fechaderecepcion, ord.comentarios, ord.numSello, ord.latitud, ord.longitud " & _
-                                      " ,  cli.comoLlegar, cli.numExterior, cli.numInterior,col.nombre colonia, mun.nombre municipio, cli.Nombre cliente, cli.poliza , cli.entreCalles,ca.nombre calle,ord.numMedidor numMedidor from ordenes ord left outer join  tareas tar on ( tar.idtarea=ord.idtarea) left outer join codigos mot on (ord.motivo=mot.codigo) left outer join codigos acc on (concat('AC', LPad(ord.lectura, 3, '0'))=acc.codigo), codigos est,  empleados emp , clientes cli " & _
-                                        ",municipios mun, " & _
-                                        "colonias col, " & _
-                                        "calles ca " & _
-                                        "where 1=1  and cli.idCliente=ord.idCliente and tar.idEmpleado=emp.idEmpleado " & _
-                                        "and ca.idColonia = col.idColonia " & _
-                                         "and col.idMunicipio = mun.idMunicipio " & _
-                                        "and ca.idCalle = cli.idCalle " & _
-                                        ls_filtro & _
+                selectSQL = "Select  if (isnull(acc.nombre), '', acc.nombre) accionCorte,ord.sinregistro, ord.fechaDeInicio, ord.estadoDeLaRevision, if(isnull(emp.alias) or LENGTH(emp.alias)=0, CONCAT_WS(' ',emp.nombre,  emp.appat, emp.apmat), emp.alias) tecnico, cli.poliza poliza, if (isnull(ord.estadoAnterior), '',ord.estadoAnterior) estadoAnterior, ord.idOrden, ord.idOrden numorden, ord.tipodeOrden, est.nombre estadodelaorden ,ord.numMedidor, ord.lectura, mot.nombre motivo , ord.fechadeejecucion fechadeejecucion, fechaderecepcion, ord.comentarios, ord.numSello, ord.latitud, ord.longitud " &
+                                      " ,  cli.comoLlegar, cli.numExterior, cli.numInterior,col.nombre colonia, mun.nombre municipio, cli.Nombre cliente, cli.poliza , cli.entreCalles,ca.nombre calle,ord.numMedidor numMedidor from ordenes ord left outer join  tareas tar on ( tar.idtarea=ord.idtarea) left outer join codigos mot on (ord.motivo=mot.codigo) left outer join codigos acc on (concat('AC', LPad(ord.lectura, 3, '0'))=acc.codigo), codigos est,  empleados emp , clientes cli " &
+                                        ",municipios mun, " &
+                                        "colonias col, " &
+                                        "calles ca " &
+                                        "where 1=1  and cli.idCliente=ord.idCliente and tar.idEmpleado=emp.idEmpleado " &
+                                        "and ca.idColonia = col.idColonia " &
+                                         "and col.idMunicipio = mun.idMunicipio " &
+                                        "and ca.idCalle = cli.idCalle " &
+                                        ls_filtro &
                                         porUsuario & " and est.codigo=ord.estadodelaorden" & " and tar.fechadeasignacion between STR_TO_DATE('" & dia.Text & "', '%Y%m%d%') and " & " STR_TO_DATE('" & dia2.Text & "', '%Y%m%d%')"
 
 
@@ -943,38 +943,38 @@ Partial Class verOrdenesPorEmpleado
                 Dim ds As DataSet = conectarMySql(conn, selectSQL, "ordenes", True)
 
                 For Each row As DataRow In ds.Tables(0).Rows
-                    'If TryCast(row.FindControl("chkSelect"), CheckBox).Checked Then
-                    '    Dim filePath As String = TryCast(row.FindControl("lblFilePath"), Label).Text
-                    '    
-                    'End If
 
                     Dim ls_numOrden As String = row("numOrden")
-                    ls_numOrden = ls_numOrden.PadLeft(obtieneLongitud(conn, "numOrden"), "0")
                     Dim ls_poliza As String = row("poliza")
-                    ls_poliza = ls_poliza.PadLeft(obtieneLongitud(conn, "poliza"), "0")
-                    Dim nombreGenerico As String = ls_numOrden & "_" & ls_poliza
-                    'Buscamos por la foto de antes
+                    Dim ls_sinRegistro As String = row("sinRegistro")
+                    Dim fechaFinal As String = row("fechaDeInicio")
+                    Dim query As String
 
-                    'Dim images As New List(Of String)
-                    For Each foundFile As String In My.Computer.FileSystem.GetFiles(
-                     Server.MapPath("~/") & "fotos\",
-                    Microsoft.VisualBasic.FileIO.SearchOption.SearchTopLevelOnly, nombreGenerico & "*.jpg")
-                        zip.AddFile(foundFile, "fotos")
-                        'images.Add(String.Format("~/fotos/{0}", System.IO.Path.GetFileName(foundFile)))
+                    If fechaFinal.Length >= 10 Then
+                        fechaFinal = fechaFinal.Substring(6, 4) & fechaFinal.Substring(3, 2) & fechaFinal.Substring(0, 2)
+                    Else
+                        fechaFinal = 0
+                    End If
+
+                    If ls_sinRegistro.Equals("1") Then
+                        query = "select * from fotos where idorden=0 and idpoliza=" & ls_poliza & " and fecha =" & fechaFinal
+
+                    Else
+                        query = "select * from fotos where idorden=" & ls_numOrden
+
+                    End If
+
+
+
+                    Dim dsFotos As DataSet = conectarMySql(conn, query, "fotos", False)
+                    Dim servidorFotos As String = Server.MapPath("~/")
+                    Dim images As New List(Of String)
+
+
+                    For Each rowFotos As DataRow In dsFotos.Tables(0).Rows
+                        zip.AddFile(String.Format("{0}/{1}/{2}", servidorFotos, rowFotos.Item("path"), rowFotos.Item("name")), "fotos")
                     Next
 
-                    'Dim filePath As String = Server.MapPath("~/") & "fotos\" & nombreGenerico & "_" & "1" & extension
-                    'If System.IO.File.Exists(filePath) Then
-                    '    zip.AddFile(filePath, "fotos")
-
-                    'End If
-
-                    ''buscamos por la foto del despues
-                    'filePath = Server.MapPath("~/") & "fotos\" & nombreGenerico & "_" & "2" & extension
-                    'If System.IO.File.Exists(filePath) Then
-                    '    zip.AddFile(filePath, "fotos")
-
-                    'End If
                 Next
                 Response.Clear()
                 Response.BufferOutput = False
