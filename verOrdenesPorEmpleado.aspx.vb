@@ -250,18 +250,19 @@ Partial Class verOrdenesPorEmpleado
 
     Public Sub LinkButton_Click(sender As Object, e As EventArgs)
         Dim queryString = ""
-        'queryString = selectSQL.Replace("+", "%2B")
-        queryString = selectSQL
-        Response.Redirect("verOrdenes.aspx?busqueda=" & CType(sender, LinkButton).Text & "&tipo=" & "ord.numOrden&q=" & queryString & _
-                          "&ck_filtrarRealizadas=" & If(ck_filtrarRealizadas.Checked, 1, 0) & _
-                          "&ck_porUsuario=" & If(ck_PorUsuario.Checked, 1, 0) & _
-                          "&cb_reconexiones=" & If(False, 1, 0) & _
-                          "&cb_remociones=" & If(False, 1, 0) & _
-                          "&dia=" & dia.Text & _
-                          "&dia2=" & dia2.Text & _
-                          "&cb_recremos=" & If(False, 1, 0) & _
-                          "&rbTipoDeBusqueda=" & rbTipoDeBusqueda.SelectedValue & _
-                          "&ddl_motivos=" & ddl_motivos.SelectedValue & _
+        'ScriptManager.RegisterStartupScript(Me, Page.GetType, "Script", "console.log (""" & selectSQL.Replace("+", "%2B") & """)", True)
+        queryString = selectSQL.Replace("+", "%2B")
+        'queryString = selectSQL
+        Response.Redirect("verOrdenes.aspx?busqueda=" & CType(sender, LinkButton).Text & "&tipo=" & "ord.numOrden&q=" & queryString &
+                          "&ck_filtrarRealizadas=" & If(ck_filtrarRealizadas.Checked, 1, 0) &
+                          "&ck_porUsuario=" & If(ck_PorUsuario.Checked, 1, 0) &
+                          "&cb_reconexiones=" & If(False, 1, 0) &
+                          "&cb_remociones=" & If(False, 1, 0) &
+                          "&dia=" & dia.Text &
+                          "&dia2=" & dia2.Text &
+                          "&cb_recremos=" & If(False, 1, 0) &
+                          "&rbTipoDeBusqueda=" & rbTipoDeBusqueda.SelectedValue &
+                          "&ddl_motivos=" & ddl_motivos.SelectedValue &
                           "&id=" & gv_tecnicos.SelectedRow.Cells(1).Text)
         'Response.Redirect("verOrdenes.aspx?busqueda=" & CType(sender, LinkButton).Text & "&tipo=" & "ord.numOrden&q=" & selectSQL)
 
@@ -461,6 +462,11 @@ Partial Class verOrdenesPorEmpleado
             '"Select idOrden, numOrden numorden, descOrden tipoDeOrden , municipio, colonia,  calle, numExterior, numInterior,  if (isnull(idEmpleado), 0, 1) asignada " & _
             '                "from ordenes where isnull(idEmpleado) or idEmpleado= " & lbEmpleados.SelectedValue & " order By municipio asc , colonia asc, calle asc"
 
+            Me.selectSQL = selectSQL
+            Me.ViewState("selectSQL") = selectSQL
+            Console.WriteLine(selectSQL)
+            query.Value = selectSQL
+
             Dim dsOrdenes As DataSet = conectarMySql(conn, selectSQL, "lecturas", True)
             dgOrdenes.DataSource = dsOrdenes.Tables("lecturas")
 
@@ -469,9 +475,7 @@ Partial Class verOrdenesPorEmpleado
             dgOrdenListado.DataSource = dsOrdenes.Tables("lecturas")
             dgOrdenListado.DataBind()
 
-            Me.selectSQL = selectSQL
-            Me.ViewState("selectSQL") = selectSQL
-            query.Value = selectSQL
+
             'establecerQuery()
             'Hora de inicio, hora fin
 
@@ -557,7 +561,7 @@ Partial Class verOrdenesPorEmpleado
         sb.Append("eraseCookie('WTdivSampleScrollY');")
         sb.Append("createCookie('WTdivSampleScrollY', " & iScrollTo & ", 1);")
         sb.Append("MaintainDivScrollPosition();")
-        sb.Append("'};")
+        sb.Append("};")
         'sb.Append("</script>")
         'ClientScript.RegisterClientScriptBlock(Me.GetType(), "FocusTecnico", sb.ToString())
         ScriptManager.RegisterStartupScript(gv_tecnicos, Me.GetType(), "highlight", sb.ToString, True)

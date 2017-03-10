@@ -108,7 +108,7 @@ Partial Class _Default
             Dim row As DataRow = ds.Tables(0).Rows(0)
             ls_motivo = changeDBNull(row("anomalia"), "Sin Anomalia")
             ls_anomalia = changeDBNull(row("claveAnomalia"), " ")
-            ls_queryString = Request.QueryString("q")
+            ls_queryString = "" 'Request.QueryString("q")
             ls_fechaDeEjecucion = changeDBNull(row("fecha"), "S/D")
             ls_lectura = changeDBNull(row("lectura"), "0")
             ls_medidor = changeDBNull(row("serieMedidor"), "S/D")

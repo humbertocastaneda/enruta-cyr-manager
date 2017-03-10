@@ -157,7 +157,7 @@
                             CssClass="label"></asp:Label>
                     </td>
                     <td colspan="3">
-                        <asp:Label ID="Label21" class="text" runat="server" Text="<%# ls_queryString %>" 
+                        <asp:Label ID="Label21" class="text" runat="server" Text="<%# ls_direccion %>" 
                             CssClass="text"></asp:Label>
                     </td>
                 </tr>
