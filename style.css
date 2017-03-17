@@ -1,0 +1,383 @@
+*
+{
+    font-family: 'Segoe UI';
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-bottom:0;
+    background-color: #eaeaea;
+    margin-top:0px;
+    margin-left:0px;
+    }
+
+
+#pagina
+{
+    position: absolute; /*width: 760px;*/ /*margin-top: 0;             margin-right: auto;             margin-bottom: 0;             margin-left: auto;*/
+    background-color: #EAEAEA;
+    margin-left: 0;
+    width: 100%;
+       max-height: 100%;
+    max-width: 100%;
+    max-height:100%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    top: 0;
+    left: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+
+}
+img
+{
+    border: none;
+}
+a
+{
+    border: none;
+    text-decoration: none;
+}
+
+
+#cabecera
+{
+    height: 234px;
+    background-color: #004FC4;
+    width: 100%; /*position: absolute;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-height: 50px;
+    max-width: 100%;
+}
+
+#pie
+{
+    height: 54px;
+    position: relative;
+    width: 100%;
+    left: -10;
+    top: 0px;
+}
+#navegador
+{
+    max-height: 90%;
+       top: 0;
+    background-color: #EAEAEA;
+    position: static;
+    width: 70%; /* margin-top: 50px;*/
+    display:inline-block;
+    margin-left:15%;
+    margin-right:15%;
+
+}
+#buscar
+{
+    width:48%;
+    top: 0;
+    float: left;
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 9px;
+    margin-top: 2px;
+}
+#ordenes
+{
+    width:49%;
+    height: auto;
+    top: 0;
+    float: right;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#contenido
+{
+    /*SM SE CAMBIO EL TAMAÑO YS E ASIGNO EL MAGEN PARA QUE QUEDE CENTRADO*             /*height: 100%;*/
+    margin: 0% 15%;
+    max-height: 100%;
+    top: 0px;
+    background-color: white;
+      width: 70%; /* margin-top: 50px;*/
+         padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40%;
+        display:inline-block;
+    max-height: 100%;
+}
+
+.centrado
+{
+    /*height: 100%;*/
+    height: 184px;
+    top: -7;
+    margin-top: 20px;
+    position: relative;
+    width: 138%; /* margin-top: 50px;*/
+    margin-right: 0px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    text-align: left;
+    left: -102px;
+}
+
+.text
+{
+    margin-right: 20px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    text-align: right;
+    font-weight:bold;
+}
+.auto-style1
+{
+    width: 317px;
+    height: 71px;
+}
+.filtros
+{
+    margin-right: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#dgOrdenes
+{
+    width: 100%;
+    top: -6;
+    position: relative;
+    
+    margin-top: 16;
+    margin-bottom: 18;
+}
+
+#lbEmpleados
+{
+    width: 60%;
+    position: relative;
+    font-family: "Segoe UI";
+    margin-left: 20%;
+    margin-right: 20%;
+    top: 0px;
+    left: 0px;
+}
+
+.searchStyle
+{
+    width: 60%;
+    top: 0;
+    margin-top: 20px;
+    position: relative;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.auto-style7
+{
+    width: 94px;
+    height: 39px;
+    float: right;
+    margin-left: 5px;
+    text-align: right;
+}
+
+.hide
+{
+    display: none;
+}
+
+#gv_tecnicos .Normal, .Alternate
+{
+    cursor: default;
+}
+#gv_tecnicos .Normal:Hover, .Alternate:Hover
+{
+    cursor: pointer;
+}
+
+/* Style del cuadro de mensaje*/
+.modalBackground
+{
+    background-color: #EAEAEA;
+    filter: alpha(opacity=70);
+    opacity: 0.8;
+    font-family: Segoe UI;
+}
+/* Style del cuadro de mensaje*/
+.modalPopup
+{
+    background-color: #FFFFFF;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+/* Style del cuadro de mensaje*/
+.buttonpo
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-style: none;
+}
+/* Style del cuadro de mensaje*/
+
+.buttonpo:hover
+{
+    background: #EAEAEA;
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+    background: -moz-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -webkit-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -o-linear-gradient(top,  #efefef, #f8f8f8);
+    background: -ms-linear-gradient(top,  #efefef, #f8f8f8);
+    background: linear-gradient(top,  #efefef, #f8f8f8);
+}
+/* Style del cuadro de mensaje*/
+#btnaceptar
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+}
+
+/* Style de Bolton*/
+.button.blue
+{
+    background: #004FC4;
+    -webkit-box-shadow: inset 0px 0px 6px #fff;
+    color: white;
+    background: -moz-linear-gradient(top,  #f9f9f9, #f0f0f0);
+    background: -webkit-linear-gradient(top,  #f9f9f9, #f0f0f0);
+    background: o-linear-gradient(top,  #f9f9f9, #f0f0f0);
+    background: ms-linear-gradient(top,  #f9f9f9, #f0f0f0);
+    background: #004FC4;
+    font-family: Segoe UI;
+    font-size: 18px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 2px;
+    border-style: none;
+    padding-bottom: 4px;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.button:hover
+{
+    color: #eaeaea;
+    border-color: #FBFBEF #F5F6CE #bebebe;
+    background: -moz-linear-gradient(top,  #F5F6CE, #FBFBEF);
+    background: -webkit-linear-gradient(top,  #F5F6CE, #FBFBEF);
+    background: -o-linear-gradient(top,  #F5F6CE, #FBFBEF);
+    background: -ms-linear-gradient(top, #F5F6CE, #FBFBEF);
+    background: linear-gradient(top, #F5F6CE, #FBFBEF);
+    background: #045FB4;
+}
+.label
+{
+    font-family: Segoe UI;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#Panel1
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+#cargando
+{
+    background-color: #EAEAEA;
+    filter: alpha(opacity=70);
+    opacity: 0.8;
+}
+/* SM estulo footer REVISAR DIV TIENE PROPIEDADES DE STYLO*/
+.footer
+{
+    position: static;
+    left: 0px;
+    width: 100%;
+    height: 45px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background-color: #004FC4;
+    font-size: 11px;
+    font-family: Segoe UI;
+    text-decoration: none;
+    color: #EAEAEA;
+}
+
+
+/*sm estructura*/
+form
+{
+   
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #eaeaea;
+    margin:0 0 7 0;
+}
+
+
+
+
+
+
+
+
+.buttongrl {
+   background: #004FC4;
+    -webkit-box-shadow: inset 0px 0px 2px #004FC4;
+    color: white;
+    background: -moz-linear-gradient(top,  #f9f9f9, #f0f0f0);
+    background: -webkit-linear-gradient(top,  #f9f9f9, #f0f0f0);
+    background: o-linear-gradient(top,  #f9f9f9, #f0f0f0);
+    background: ms-linear-gradient(top,  #f9f9f9, #f0f0f0);
+    background: #004FC4;
+    font-family: Segoe UI;
+   /* font-size: 18px;*/
+   font-size: 14px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 1px;
+    border-style: none;
+    padding-bottom: 6px;
+    padding-top: 4px;
+    padding-left: 6px;
+    padding-right:6px;
+   cursor:pointer;
+   
+}
+.buttongrl:hover {
+   background: #3a7ee2;
+    border-color: #3a7ee2f;
+    background: -moz-linear-gradient(top,  #3a7ee2);
+    background: -webkit-linear-gradient(top, #3a7ee2);
+    background: -o-linear-gradient(top,  #3a7ee2);
+    background: -ms-linear-gradient(top,  #3a7ee2f);
+    background: linear-gradient(top,  #3a7ee2);
+}
+.buttongrl:active {
+  background: black;
+;
+}
