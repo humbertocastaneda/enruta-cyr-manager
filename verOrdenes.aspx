@@ -84,15 +84,13 @@
     </div>
      <div id="navegador">
             <div id="buscar">
-                <div style="margin-left: 20%; margin-right: 20%; width:100%">
+                
                     <div style=" float: left; margin-left: 20px; margin-top: 10px; width:100%">
                         <br />
                         Clave Usuario:&nbsp;<asp:TextBox ID="txtBuscar" runat="server" Width="200px" Style="text-align: left"
                             Height="21px"></asp:TextBox>  &nbsp;<asp:Button ID="Button1" runat="server" Text="Seleccionar" CssClass="buttongrl" />
                         
                     </div>
-                   
-                </div>
             </div>
             <div id="ordenes">
                 <div style="margin-top: 10px; margin-left: 43px; margin-bottom: 14px; ">

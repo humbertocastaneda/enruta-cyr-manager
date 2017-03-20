@@ -31,7 +31,7 @@ body
     left: 0px;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 0;
+    padding-top: 50px;
 
 }
 img
@@ -49,7 +49,8 @@ a
 {
     height: 234px;
     background-color: #004FC4;
-    width: 100%; /*position: absolute;*/
+    width: 100%; 
+	position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -57,6 +58,7 @@ a
     margin-left: 0px;
     max-height: 50px;
     max-width: 100%;
+	z-index:999
 }
 
 #pie
@@ -77,6 +79,7 @@ a
     display:inline-block;
     margin-left:15%;
     margin-right:15%;
+	padding-top:50px
 
 }
 #buscar
